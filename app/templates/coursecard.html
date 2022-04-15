@@ -1,0 +1,17 @@
+<div class="card m-3">
+  <div class="card-body">
+    <h6 class="card-title">{{ subject_code }} {{ course_code }} {{ course_name }}</h6>
+    {% if required %}
+      <p class="card-text">Major Requirement</p>
+    {% else %}
+      <p class="card-text">Elective</p>
+    {% endif %}
+    {% if name != '' %}
+    <p class="card-text">Professor: {{ name }}</p>
+    {% endif %}
+    <p class="card-text">Credits: {{ credits }}</p>
+    <form action="" method="POST">
+      <input class="btn btn-danger" type="submit" name="drop,{{ subject_code }},{{ course_code }},{{ course_name }},{{ name }},{{ sem }},{{ call_number }}" value="Drop">
+    </form>
+  </div>
+</div>

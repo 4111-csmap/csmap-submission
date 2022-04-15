@@ -1,0 +1,79 @@
+{% extends 'loggedin.html' %}
+
+{% block data %}
+<div class="row">
+  <div class="col-12">
+    <h1 class="">Search Professors</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <form action="" method="POST">
+      <div class="form-group">
+        <label for="keywords">Enter Keyphrase</label>
+        <input type="text" class="form-control" id="keywords" name="keywords" placeholder="Keyphrase...">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="professor">Name</label>
+          <select id="professor" name="name" class="form-control">
+            <option selected>Choose...</option>
+            {% for prof in professors %}
+              <option>{{ prof }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="department">Department</label>
+          <select id="department" name="department" class="form-control">
+            <option selected>Choose...</option>
+            {% for d in departments %}
+              <option>{{ d }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="subfield">Subfield</label>
+          <select id="subfield" name="subfield" class="form-control">
+            <option selected>Choose...</option>
+            {% for s in subfields %}
+              <option>{{ s }}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <input class="btn btn-primary" type="submit" name="search" value="Search">
+          <input class="btn btn-success" type="submit" name="surprise" value="Recommend Me!">
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+{% if output %}
+  {% for out in output %}
+    <div class="container-fluid bg-light my-3 mr-4 p-3">
+      <div class="row">
+        <div class="col-12">
+          <h3 class="">{{ out[1] }}</h3>
+          <p class="">UNI: {{ out[0] }}</p>
+          <p class="">Department: {{ out[2] }}</p>
+          <p class="">Research Interests: {{ out[3] }}</p>
+          <p class="">Year Joined: {{ out[4] }}</p>
+          <p class="">Courses Taught: {% for c in courses[out[0]] %}{{ c[0] }} {{ c[1] }}: {{ c[2] }}{% if c != courses[out[0]][-1] %}, {% endif %}{% endfor %}</p>
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+{% else %}
+  <div class="container-fluid bg-light my-3 mr-4 p-3">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="">No professors! Try another search query.</h3>
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% endblock data %}

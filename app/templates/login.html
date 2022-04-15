@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="container">
+  <div class="card my-3">
+    <div class="card-body">
+      <div class="row">
+        <div class="col-sm-12">
+          <h1 class="Login"></h1>
+        </div> 
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <form action="" method="post">
+            <div class="form-group">
+              <label for="inputuni">UNI</label>
+              <input type="text" class="form-control" placeholder="UNI" name="uni" id="inputuni" value="{{ request.form.uni }}"></br>
+            </div>
+            <div class="form-group">
+              <label for="inputpassword">Password</label>
+              <input type="password" class="form-control" placeholder="Password" name="password" id="inputpassword" value="{{ request.form.password }}"></br>
+            </div>
+            <input class="btn btn-primary" type="submit" value="Login">
+          </form>
+        </div> 
+      </div>
+      {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+    </div>
+  </div>
+</div>
+{% endblock content %}

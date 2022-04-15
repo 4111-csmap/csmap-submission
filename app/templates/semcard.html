@@ -1,0 +1,13 @@
+<div class="container-fluid bg-light my-3 mr-4 p-3">
+  <h3 class="">{{ sem }}</h3>
+  <div class="d-flex flex-row flex-wrap">
+    {% for e_sem, e_course in current_user.enrolled %}
+      {% if e_sem == sem %}
+        {% set subject_code, course_code, course_name, name, call_number = e_course %}
+        {% set required = e_course[0:3] in current_user.required %}
+        {% set credits = get_credits(e_course) %}
+        {% include "coursecard.html" %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

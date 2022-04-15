@@ -1,0 +1,17 @@
+{% extends 'loggedin.html' %}
+
+{% block data %}
+<div class="row">
+  <div class="col-12">
+    <h1 class="">My Courses</h1>
+  </div>
+</div>
+
+{% for sem in current_user.semesters %}
+  <div class="row">
+    <div class="col-12">
+      {% include "semcard.html" %}
+    </div>
+  </div>
+{% endfor %}
+{% endblock data %}

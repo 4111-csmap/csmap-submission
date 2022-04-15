@@ -1,0 +1,1940 @@
+/* Courses */
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '1001', 'Intro. to Information Science', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '1002', 'Computing in Context', '4.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('ENGI', '1006', 'Intro. to Computing in Python', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '1007', 'Honors Intro. to CS', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '3107', 'Clean Object-Oriented Design', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '3134', 'Data Structures in Java', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '3136', 'Essential Data Structures', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '3137', 'Honors Data Structures and Algorithms', '4.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '3157', 'Advanced Programming', '4.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '3251', 'Computational Linear Algebra', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', '3.0');
+
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '3410', 'Computers and Society', '3.0');
+
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4112', 'Database Systems Implementation', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4113', 'Distributed Systems Fundamentals', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4115', 'Programming Languages and Translators', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4118', 'Operating Systems I', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('CSEE', '4119', 'Computer Networks', '3.0');
+
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4121', 'Computer Systems for Data Science', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4152', 'Engineering SaaS', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4156', 'Advanced Software Engineering', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4160', 'Computer Graphics', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4167', 'Computer Animation', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4170', 'User Interface Design', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4172', '3D UI and Augmented Reality', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4181', 'Security I', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4182', 'Security II', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4186', 'Malware Analysis and Reverse Engineering', '3.0');
+
+INSERT INTO COURSES_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4232', 'Advanced Algorithms', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4236', 'Intro. to Computational Complexity', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('CSOR', '4246', 'Algorithms for Data Science', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4252', 'Intro. to Computational Learning Theory', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4261', 'Intro. to Cryptography', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4281', 'Intro. to Quantum Computing', '3.0');
+
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4419', 'Internet Technology, Economics, and Policy', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4444', 'Programming and Problem Solving', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4460', 'Principles of Innovation and Entrepreneurship', '3.0');
+
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4721', 'Machine Learning for Data Science', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4731', 'Computer Vision I: First Principles', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4732', 'Computer Vision II: Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4733', 'Computational Aspects of Robotics', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4735', 'Visual Interfaces to Computers', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4761', 'Computational Genomics', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4762', 'Machine Learning for Functional Genomics', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4771', 'Machine Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4772', 'Advanced Machine Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4774', 'Unsupervised Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4775', 'Causal Inference', '3.0');
+
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Advanced Algorithms', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Advanced Deep Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Applied Deep Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Applied Machine Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Blockchains and Applications', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Causal Inference for Data Science', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Causal Inference', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Causal Inference II', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'C++ for C Programmers', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Deep Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Deep Learning for Computer Vision', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Design Using C++', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Elements for Data Science', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Empirical Methods of Data Science', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Engineering SaaS', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Geometric Data Analysis', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Hacking 4 Defense', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Incentives in CS', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Intro. to Agile Project Management', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Intro. to Data Visualization', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Intro. to DevOps', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Intro. to Networks and Crowds', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Logic and Computability', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Machine Learning for Functional Genomics', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Machine Learning Theory', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Machine Learning with Applications in Finance', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Multilingual Technologies and Language Diversity', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Natural and Artificial Neural Networks', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Neural Networks and Deep Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Open Source Development', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Optimization for Machine Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Parallel Functional Programming', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Randomized Algorithms', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Semantic Representations for Natural Language Processing', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Technical Interview Preparation in C++', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Topics in Database Systems', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '4995', 'Ubiquitous Sequencing', '3.0');
+
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6111', 'Advanced Database Systems', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6113', 'Topics in Database Systems', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6118', 'Operating Systems II', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6156', 'Cloud Computing', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6178', 'Human-Computer Interaction', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6184', 'Anonymity and Privacy', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6185', 'Intrusion Detection Systems', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6261', 'Advanced Cryptography', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6424', 'Hardware Security', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6735', 'Visual Databases', '3.0');
+
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Advanced Spoken Language Processing', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Advanced Topics in Deep Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Advanced Web Design Studio', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'AI for Software Engineering', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Algebraic Techniques in TCS', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Analysis of Networks and Crowds', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Bandits Reinforcement Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Cloud Computing and Big Data', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Communication Complexity Applications', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Computation and the Brain', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Continuous Logic Networks', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Cybersecurity: Technology, Policy, and Law', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Data Center Networking', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Dialog Systems (Conversational AI)', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Empirical Methods of Data Science', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Engineering Web3 Blockchain Applications', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Fair and Robust Algorithms', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Fine Grained Complexity', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Frontiers of Quantum Complexity and Cryptography', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Formal Verification of Software Systems', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Foundations of Blockchains', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Fundamentals of Speech Recognition', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Human-Computer Interaction', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Information Theory in CS', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Machine Learning and Climate', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Machine Learning with Probabilistic Programming', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Natural Language Generation Summarization', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Practical Deep Learning System Performance', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Practical Privacy Technologies', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Quantum Computing: Theory and Practice', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Readings in Human Data Interaction', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Representation Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Security Robustness in Machine Learning Systems', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Self Supervised Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Software Engineering for AI Systems', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Synthetic Control', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Systems for Human Data Interaction', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Topics in Robotic Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Virtual and Augmented Reality', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('COMS', '6998', 'Virtualization Technologies for Cloud Computing', '3.0');
+
+INSERT INTO COURSES_OFFERED VALUES ('CSEE', '4140', 'Networking Laboratory', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('CSEE', '4823', 'Advanced Logic Design', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('CSEE', '4824', 'Computer Architecture', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('CSEE', '4840', 'Embedded Systems', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('CSEE', '4868', 'System-on-Chip Platforms', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('CSEE', '6180', 'Modeling and Performance Evaluation', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('CSEE', '6863', 'Formal Verification of Hardware and Software Systems', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('CSEE', '6868', 'Embedded Scalable Platforms', '3.0');
+
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '4321', 'Digital VLSI Circuits', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '4750', 'Heterogeneous Computing for Signal and Data Processing', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '4764', 'Internet of Things: Intelligent and Connected Systems', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '6321', 'Advanced Digital Electronics Design', '4.5');
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '6690', 'Topics in Data-Driven Analysis and Computation: Statistical Learning for Biological and Information Systems', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '6691', 'Topics in Data-Driven Analysis and Computation: Advanced Deep Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '6692', 'Topics in Data-Driven Analysis and Computation: Deep Learning on the Edge', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '6699', 'Topics in Data-Driven Analysis and Computation: Mathematics of Deep Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '6720', 'Bayesian Models for Machine Learning', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '6765', 'Internet of Things: Systems and Physical Data Analytics', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '6890', 'Topics in Information Processing: Advanced Computer Networks', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '6892', 'Topics in Information Processing: Reinforcement Learning in Information Systems', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '6893', 'Topics in Information Processing: Big Data Analytics', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '6895', 'Topics in Information Processing: Advanced Big Data Analytics', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '6896', 'Topics in Information Processing: Quantum Computing and Communication', '3.0');
+INSERT INTO COURSES_OFFERED VALUES ('EECS', '6897', 'Topics in Information Processing: Distributed Storage Systems for Big Data', '3.0');
+
+
+/* Fall 2022 */
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1002', 'Computing in Context', 'Fa22', 10798, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('ac1076', 'COMS', '1002', 'Computing in Context', 'Fa22', 10798);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1002', 'Computing in Context', 'Fa22', 10984, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('ac1076', 'COMS', '1002', 'Computing in Context', 'Fa22', 10984);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Fa22', 10985, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '1004', 'Intro. to CS in Java', 'Fa22', 10985);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Fa22', 10986, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '1004', 'Intro. to CS in Java', 'Fa22', 10986);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('ENGI', '1006', 'Intro. to Computing in Python', 'Fa22', 11062, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'ENGI', '1006', 'Intro. to Computing in Python', 'Fa22', 11062);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3107', 'Clean Object-Oriented Design', 'Fa22', 10997, 'MoWe', '16:10', '15:25');
+INSERT INTO INSTRUCTS VALUES ('jrk3', 'COMS', '3107', 'Clean Object-Oriented Design', 'Fa22', 10997);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3134', 'Data Structures in Java', 'Fa22', 10998, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'COMS', '3134', 'Data Structures in Java', 'Fa22', 10998);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3134', 'Data Structures in Java', 'Fa22', 10999, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'COMS', '3134', 'Data Structures in Java', 'Fa22', 10999);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3136', 'Essential Data Structures', 'Fa22', 11000, 'TuTh', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('tkp2108', 'COMS', '3136', 'Essential Data Structures', 'Fa22', 11000);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3157', 'Advanced Programming', 'Fa22', 11001, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('se2007', 'COMS', '3157', 'Advanced Programming', 'Fa22', 11001);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', 'Fa22', 11002, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '3203', 'Discrete Mathematics', 'Fa22', 11002);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3251', 'Computational Linear Algebra', 'Fa22', 11003, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('djh2164', 'COMS', '3251', 'Computational Linear Algebra', 'Fa22', 11003);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Fa22', 11004, 'MoWe', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('tm2118', 'COMS', '3261', 'Computer Science Theory', 'Fa22', 11004);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Fa22', 11005, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('tm2118', 'COMS', '3261', 'Computer Science Theory', 'Fa22', 11005);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3410', 'Computers and Society', 'Fa22', 11006, 'Wed', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '3410', 'Computers and Society', 'Fa22', 11006);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa22', 11054, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('mak2192', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa22', 11054);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa22', 11055, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('mak2192', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa22', 11055);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Fa22', 11007, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('lg233', 'COMS', '4111', 'Intro. to Databases', 'Fa22', 11007);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Fa22', 11008, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('ew2493', 'COMS', '4111', 'Intro. to Databases', 'Fa22', 11008);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Fa22', 11009, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('dff9', 'COMS', '4111', 'Intro. to Databases', 'Fa22', 11009);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Fa22', 11010, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('ew2493', 'COMS', '4111', 'Intro. to Databases', 'Fa22', 11010);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4113', 'Distributed Systems Fundamentals', 'Fa22', 11011, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('rg2758', 'COMS', '4113', 'Distributed Systems Fundamentals', 'Fa22', 11011);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4115', 'Programming Languages and Translators', 'Fa22', 11012, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('rg3123', 'COMS', '4115', 'Programming Languages and Translators', 'Fa22', 11012);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4118', 'Operating Systems I', 'Fa22', 13030, 'TuTh', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('jn234', 'COMS', '4118', 'Operating Systems I', 'Fa22', 13030);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4152', 'Engineering SaaS', 'Fa22', 13219, 'TuTh', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('jy2324', 'COMS', '4152', 'Engineering SaaS', 'Fa22', 13219);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4156', 'Advanced Software Engineering', 'Fa22', 11013, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('gek1', 'COMS', '4156', 'Advanced Software Engineering', 'Fa22', 11013);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4170', 'User Interface Design', 'Fa22', 11014, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('bas2137', 'COMS', '4170', 'User Interface Design', 'Fa22', 11014);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4181', 'Security I', 'Fa22', 11015, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('sj2754', 'COMS', '4181', 'Security I', 'Fa22', 11015);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4186', 'Malware Analysis and Reverse Engineering', 'Fa22', 11016, 'Thu', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('mss73', 'COMS', '4186', 'Malware Analysis and Reverse Engineering', 'Fa22', 11016);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', 'Fa22', 11058, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('my2144', 'CSOR', '4231', 'Analysis of Algorithms I', 'Fa22', 11058);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', 'Fa22', 11059, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('cp3007', 'CSOR', '4231', 'Analysis of Algorithms I', 'Fa22', 11059);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4236', 'Intro. to Computational Complexity', 'Fa22', 11017, 'MoWe', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('xc2198', 'COMS', '4236', 'Intro. to Computational Complexity', 'Fa22', 11017);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4246', 'Algorithms for Data Science', 'Fa22', 11060, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('ed2624', 'CSOR', '4246', 'Algorithms for Data Science', 'Fa22', 11060);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4246', 'Algorithms for Data Science', 'Fa22', 11061, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('ed2624', 'CSOR', '4246', 'Algorithms for Data Science', 'Fa22', 11061);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4252', 'Intro. to Computational Learning Theory', 'Fa22', 11018, 'TuTh', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('ras2105', 'COMS', '4252', 'Intro. to Computational Learning Theory', 'Fa22', 11018);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4419', 'Internet Technology, Economics, and Policy', 'Fa22', 11019, 'TuTh', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('hgs10', 'COMS', '4419', 'Internet Technology, Economics, and Policy', 'Fa22', 11019);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4444', 'Programming and Problem Solving', 'Fa22', 11020, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('kar4', 'COMS', '4444', 'Programming and Problem Solving', 'Fa22', 11020);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', 'Fa22', 11022, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('as2933', 'COMS', '4701', 'Artificial Intelligence', 'Fa22', 11022);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', 'Fa22', 11023, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('as2933', 'COMS', '4701', 'Artificial Intelligence', 'Fa22', 11023);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', 'Fa22', 11024, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'COMS', '4705', 'Natural Language Processing', 'Fa22', 11024);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4731', 'Computer Vision I: First Principles', 'Fa22', 11025, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('skn3', 'COMS', '4731', 'Computer Vision I: First Principles', 'Fa22', 11025);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4762', 'Machine Learning for Functional Genomics', 'Fa22', 11026, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('dak2173', 'COMS', '4762', 'Machine Learning for Functional Genomics', 'Fa22', 11026);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4771', 'Machine Learning', 'Fa22', 11027, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4771', 'Machine Learning', 'Fa22', 11027);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4774', 'Unsupervised Learning', 'Fa22', 11028, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4774', 'Unsupervised Learning', 'Fa22', 11028);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4775', 'Causal Inference', 'Fa22', 11029, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('eb3304', 'COMS', '4775', 'Causal Inference', 'Fa22', 11029);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4868', 'System-on-Chip Platforms', 'Fa22', 11056, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('lc2257', 'CSEE', '4868', 'System-on-Chip Platforms', 'Fa22', 11056);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Hacking 4 Defense', 'Fa22', 11030, 'Tue', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '4995', 'Hacking 4 Defense', 'Fa22', 11030);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Parallel Functional Programming', 'Fa22', 11031, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('se2007', 'COMS', '4995', 'Parallel Functional Programming', 'Fa22', 11031);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Empirical Methods of Data Science', 'Fa22', 11032, 'MoWe', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('mfl41', 'COMS', '4995', 'Empirical Methods of Data Science', 'Fa22', 11032);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Neural Networks and Deep Learning', 'Fa22', 11033, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('rz2548', 'COMS', '4995', 'Neural Networks and Deep Learning', 'Fa22', 11033);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Logic and Computability', 'Fa22', 11034, 'Wed', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('tp2684', 'COMS', '4995', 'Logic and Computability', 'Fa22', 11034);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Applied Deep Learning', 'Fa22', 11035, 'Thu', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('jbg2109', 'COMS', '4995', 'Applied Deep Learning', 'Fa22', 11035);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Applied Machine Learning', 'Fa22', 11036, 'Mon', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('vp2472', 'COMS', '4995', 'Applied Machine Learning', 'Fa22', 11036);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Elements for Data Science', 'Fa22', 11037, 'Wed', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('brg2130', 'COMS', '4995', 'Elements for Data Science', 'Fa22', 11037);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6118', 'Operating Systems II', 'Fa22', 13031, 'Thu', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('jn234', 'COMS', '6118', 'Operating Systems II', 'Fa22', 13031);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6156', 'Cloud Computing', 'Fa22', 11038, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('dff9', 'COMS', '6156', 'Cloud Computing', 'Fa22', 11038);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6184', 'Anonymity and Privacy', 'Fa22', 10996, 'Thu', '18:20', '20:10');
+INSERT INTO INSTRUCTS VALUES ('smb2132', 'COMS', '6184', 'Anonymity and Privacy', 'Fa22', 10996);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '6863', 'Formal Verification of Hardware and Software Systems', 'Fa22', 11057, 'Wed', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('mt148', 'CSEE', '6863', 'Formal Verification of Hardware and Software Systems', 'Fa22', 11057);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Topics in Robotic Learning', 'Fa22', 11039, 'Fri', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('ss5941', 'COMS', '6998', 'Topics in Robotic Learning', 'Fa22', 11039);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Advanced Web Design Studio', 'Fa22', 11040, 'Fri', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('lc3251', 'COMS', '6998', 'Advanced Web Design Studio', 'Fa22', 11040);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Dialog System (Conversational AI)', 'Fa22', 11041, 'Wed', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('zy2461', 'COMS', '6998', 'Dialog System (Conversational AI)', 'Fa22', 11041);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Representation Learning', 'Fa22', 11042, 'Fri', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('cv2428', 'COMS', '6998', 'Representation Learning', 'Fa22', 11042);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Advanced Spoken Language Processing', 'Fa22', 11043, 'Thu', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('jbh2019', 'COMS', '6998', 'Advanced Spoken Language Processing', 'Fa22', 11043);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Data Center Networking', 'Fa22', 11044, 'Thu', '12:10', '14:00');
+INSERT INTO INSTRUCTS VALUES ('vm2020', 'COMS', '6998', 'Data Center Networking', 'Fa22', 11044);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Engineering Web3 Blockchain Applications', 'Fa22', 11045, 'Thu', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('jy2324', 'COMS', '6998', 'Engineering Web3 Blockchain Applications', 'Fa22', 11045);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Fundamentals of Speech Recognition', 'Fa22', 11046, 'Thu', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('hb87', 'COMS', '6998', 'Fundamentals of Speech Recognition', 'Fa22', 11046);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Fine Grained Complexity', 'Fa22', 11047, 'Thu', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('ja3570', 'COMS', '6998', 'Fine Grained Complexity', 'Fa22', 11047);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Natural Language Generation Summarization', 'Fa22', 11048, 'Wed', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('krm8', 'COMS', '6998', 'Natural Language Generation Summarization', 'Fa22', 11048);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Practical Deep Learning System Performance', 'Fa22', 11049, 'Fri', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('pd2637', 'COMS', '6998', 'Practical Deep Learning System Performance', 'Fa22', 11049);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Fair and Robust Algorithms', 'Fa22', 11050, 'Thu', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('rz2548', 'COMS', '6998', 'Fair and Robust Algorithms', 'Fa22', 11050);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Analysis of Networks and Crowds', 'Fa22', 11051, 'Fri', '12:10', '14:00');
+INSERT INTO INSTRUCTS VALUES ('ac3318', 'COMS', '6998', 'Analysis of Networks and Crowds', 'Fa22', 11051);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Cloud Computing and Big Data', 'Fa22', 11052, 'Thu', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('ss3876', 'COMS', '6998', 'Cloud Computing and Big Data', 'Fa22', 11052);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Machine Learning and Climate', 'Fa22', 11053, 'Thu', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('ak3709', 'COMS', '6998', 'Machine Learning and Climate', 'Fa22', 11053);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '4321', 'Digital VLSI Circuits', 'Fa22', 13220, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('kls30', 'EECS', '4321', 'Digital VLSI Circuits', 'Fa22', 13220);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '4764', 'Internet of Things: Intelligent and Connected Systems', 'Fa22', 10794, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('xj2179', 'EECS', '4764', 'Internet of Things: Intelligent and Connected Systems', 'Fa22', 10794);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6690', 'Topics in Data-Driven Analysis and Computation: Statistical Learning for Biological and Information Systems', 'Fa22', 11854, 'Tue', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'EECS', '6690', 'Topics in Data-Driven Analysis and Computation: Statistical Learning for Biological and Information Systems', 'Fa22', 11854);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6893', 'Topics in Information Processing: Big Data Analytics', 'Fa22', 10797, 'Fri', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('cl300', 'EECS', '6893', 'Topics in Information Processing: Big Data Analytics', 'Fa22', 10797);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6896', 'Topics in Information Processing: Quantum Computing and Communication', 'Fa22', 11859, 'Wed', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('aa2354', 'EECS', '6896', 'Topics in Information Processing: Quantum Computing and Communication', 'Fa22', 11859);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6897', 'Topics in Information Processing: Distributed Storage Systems for Big Data', 'Fa22', 11861, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('ac4665', 'EECS', '6897', 'Topics in Information Processing: Distributed Storage Systems for Big Data', 'Fa22', 11861);
+
+
+/* Summer 2022 */
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Su22A', 10329, 'MoWe', '17:30', '20:40');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '1004', 'Intro. to CS in Java', 'Su22A', 10329);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3134', 'Data Structures in Java', 'Su22B', 10337, 'MoWe', '17:30', '20:40');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '3134', 'Data Structures in Java', 'Su22B', 10337);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', 'Su22A', 10330, 'TuTh', '9:30', '12:40');
+INSERT INTO INSTRUCTS VALUES ('dsr100', 'COMS', '3203', 'Discrete Mathematics', 'Su22A', 10330);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3251', 'Computational Linear Algebra', 'Su22A', 10331, 'TuTh', '13:00', '16:10');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '3251', 'Computational Linear Algebra', 'Su22A', 10331);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Su22A', 10332, 'TuTh', '13:00', '16:10');
+INSERT INTO INSTRUCTS VALUES ('twr2111', 'COMS', '3261', 'Computer Science Theory', 'Su22A', 10332);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', 'Su22B', 10338, 'TuTh', '13:00', '16:10');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '4701', 'Artificial Intelligence', 'Su22B', 10338);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', 'Su22B', 10339, 'MoWe', '16:10', '19:20');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'COMS', '4705', 'Natural Language Processing', 'Su22B', 10339);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4771', 'Machine Learning', 'Su22B', 10340, 'TuTh', '13:00', '16:10');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4771', 'Machine Learning', 'Su22B', 10340);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Machine Learning with Applications in Finance', 'Su22A', 10333, 'MoWe', '17:30', '20:40');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '4995', 'Machine Learning with Applications in Finance', 'Su22A', 10333);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'C++ for C Programmers', 'Su22A', 10334, 'TuTh', '16:10', '19:20');
+INSERT INTO INSTRUCTS VALUES ('jwl3', 'COMS', '4995', 'C++ for C Programmers', 'Su22A', 10334);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Advanced Deep Learning', 'Su22B', 11890, 'MoWe', '13:00', '16:10');
+INSERT INTO INSTRUCTS VALUES ('id2305', 'COMS', '4995', 'Advanced Deep Learning', 'Su22B', 11890);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Su22A', 10335, 'MoWe', '17:30', '20:40');
+INSERT INTO INSTRUCTS VALUES ('tkp2108', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Su22A', 10335);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', 'Su22A', 10916, 'TuTh', '13:00', '16:10');
+INSERT INTO INSTRUCTS VALUES ('aa3185', 'CSOR', '4231', 'Analysis of Algorithms I', 'Su22A', 10916);
+
+/* Spring 2022 */
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Sp22', 12415, 'TuTh', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('ac1076', 'COMS', '1004', 'Intro. to CS in Java', 'Sp22', 12415);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Sp22', 12416, 'TuTh', '19:10', '20:25');
+INSERT INTO INSTRUCTS VALUES ('ac1076', 'COMS', '1004', 'Intro. to CS in Java', 'Sp22', 12416);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('ENGI', '1006', 'Intro. to Computing in Python', 'Sp22', 12417, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('tkp2108', 'ENGI', '1006', 'Intro. to Computing in Python', 'Sp22', 12417);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3134', 'Data Structures in Java', 'Sp22', 12418, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '3134', 'Data Structures in Java', 'Sp22', 12418);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3134', 'Data Structures in Java', 'Sp22', 12419, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '3134', 'Data Structures in Java', 'Sp22', 12419);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3134', 'Data Structures in Java', 'Sp22', 20203, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '3134', 'Data Structures in Java', 'Sp22', 20203);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3137', 'Honors Data Structures and Algorithms', 'Sp22', 12420, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'COMS', '3137', 'Honors Data Structures and Algorithms', 'Sp22', 12420);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3157', 'Advanced Programming', 'Sp22', 12421, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('jwl3', 'COMS', '3157', 'Advanced Programming', 'Sp22', 12421);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', 'Sp22', 12422, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('as2933', 'COMS', '3203', 'Discrete Mathematics', 'Sp22', 12422);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', 'Sp22', 12423, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('as2933', 'COMS', '3203', 'Discrete Mathematics', 'Sp22', 12423);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3251', 'Computational Linear Algebra', 'Sp22', 15907, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '3251', 'Computational Linear Algebra', 'Sp22', 15907);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Sp22', 12424, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('my2144', 'COMS', '3261', 'Computer Science Theory', 'Sp22', 12424);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Sp22', 12425, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('my2144', 'COMS', '3261', 'Computer Science Theory', 'Sp22', 12425);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Sp22', 12426, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('dsr100', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Sp22', 12426);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Sp22', 12427, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('dsr100', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Sp22', 12427);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Sp22', 20014, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('dsr100', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Sp22', 20014);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Sp22', 12428, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('ew2493', 'COMS', '4111', 'Intro. to Databases', 'Sp22', 12428);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Sp22', 13911, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('dff9', 'COMS', '4111', 'Intro. to Databases', 'Sp22', 13911);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Sp22', 15287, 'Thu', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('ab2264', 'COMS', '4111', 'Intro. to Databases', 'Sp22', 15287);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Sp22', 20427, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('ew2493', 'COMS', '4111', 'Intro. to Databases', 'Sp22', 20427);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4112', 'Database Systems Implementation', 'Sp22', 12429, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('kar4', 'COMS', '4112', 'Database Systems Implementation', 'Sp22', 12429);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4113', 'Distributed Systems Fundamentals', 'Sp22', 12470, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('rg2758', 'COMS', '4113', 'Distributed Systems Fundamentals', 'Sp22', 12470);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4115', 'Programming Languages and Translators', 'Sp22', 12430, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('rg3123', 'COMS', '4115', 'Programming Languages and Translators', 'Sp22', 12430);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4118', 'Operating Systems I', 'Sp22', 12431, 'Wed', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('jwl3', 'COMS', '4118', 'Operating Systems I', 'Sp22', 12431);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4119', 'Computer Networks', 'Sp22', 13696, 'TuTh', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('hgs10', 'CSEE', '4119', 'Computer Networks', 'Sp22', 13696);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4121', 'Computer Systems for Data Science', 'Sp22', 17361, 'Thu', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('ss3876', 'COMS', '4121', 'Computer Systems for Data Science', 'Sp22', 17361);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4121', 'Computer Systems for Data Science', 'Sp22', 17391, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('ac4665', 'COMS', '4121', 'Computer Systems for Data Science', 'Sp22', 17391);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4170', 'User Interface Design', 'Sp22', 12432, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('lc3251', 'COMS', '4170', 'User Interface Design', 'Sp22', 12432);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4172', '3D UI and Augmented Reality', 'Sp22', 12433, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('skf1', 'COMS', '4172', '3D UI and Augmented Reality', 'Sp22', 12433);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4182', 'Security II', 'Sp22', 12434, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('smb2132', 'COMS', '4182', 'Security II', 'Sp22', 12434);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', 'Sp22', 12435, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('ed2624', 'CSOR', '4231', 'Analysis of Algorithms I', 'Sp22', 12435);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', 'Sp22', 18321, 'MoWe', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('xc2198', 'CSOR', '4231', 'Analysis of Algorithms I', 'Sp22', 18321);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4232', 'Advanced Algorithms', 'Sp22', 12436, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('aa3185', 'COMS', '4232', 'Advanced Algorithms', 'Sp22', 12436);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4236', 'Intro. to Computational Complexity', 'Sp22', 12437, 'TuTh', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('ras2105', 'COMS', '4236', 'Intro. to Computational Complexity', 'Sp22', 12437);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4261', 'Intro. to Cryptography', 'Sp22', 12438, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('tm2118', 'COMS', '4261', 'Intro. to Cryptography', 'Sp22', 12438);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4261', 'Intro. to Cryptography', 'Sp22', 20071, 'TuTh', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('tm2118', 'COMS', '4261', 'Intro. to Cryptography', 'Sp22', 20071);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', 'Sp22', 12440, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '4701', 'Artificial Intelligence', 'Sp22', 12440);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', 'Sp22', 18093, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '4701', 'Artificial Intelligence', 'Sp22', 18093);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', 'Sp22', 12441, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('zy2461', 'COMS', '4705', 'Natural Language Processing', 'Sp22', 12441);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', 'Sp22', 17846, 'Wed', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('yb2235', 'COMS', '4705', 'Natural Language Processing', 'Sp22', 17846);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4721', 'Machine Learning for Data Science', 'Sp22', 17136, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('djh2164', 'COMS', '4721', 'Machine Learning for Data Science', 'Sp22', 17136);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4732', 'Computer Vision II: Learning', 'Sp22', 12442, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('cv2428', 'COMS', '4732', 'Computer Vision II: Learning', 'Sp22', 12442);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4733', 'Computational Aspects of Robotics', 'Sp22', 12443, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('ss5941', 'COMS', '4733', 'Computational Aspects of Robotics', 'Sp22', 12443);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4761', 'Computational Genomics', 'Sp22', 12444, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('ip2169', 'COMS', '4761', 'Computational Genomics', 'Sp22', 12444);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4762', 'Machine Learning for Functional Genomics', 'Sp22', 12445, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('dak2173', 'COMS', '4762', 'Machine Learning for Functional Genomics', 'Sp22', 12445);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4771', 'Machine Learning', 'Sp22', 12446, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4771', 'Machine Learning', 'Sp22', 12446);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4771', 'Machine Learning', 'Sp22', 12447, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4771', 'Machine Learning', 'Sp22', 12447);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4840', 'Embedded Systems', 'Sp22', 12449, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('se2007', 'CSEE', '4840', 'Embedded Systems', 'Sp22', 12449);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Semantic Representations for Natural Language Processing', 'Sp22', 12450, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'COMS', '4995', 'Semantic Representations for Natural Language Processing', 'Sp22', 12450);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Ubiquitous Sequencing', 'Sp22', 12451, 'TuTh', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('ip2169', 'COMS', '4995', 'Ubiquitous Sequencing', 'Sp22', 12451);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Causal Inference II', 'Sp22', 12452, 'Mon', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('eb3304', 'COMS', '4995', 'Causal Inference II', 'Sp22', 12452);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Geometric Data Analysis', 'Sp22', 12453, 'MoWe', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('ab4808', 'COMS', '4995', 'Geometric Data Analysis', 'Sp22', 12453);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Design Using C++', 'Sp22', 12454, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('bs2286', 'COMS', '4995', 'Design Using C++', 'Sp22', 12454);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Intro. to Networks and Crowds', 'Sp22', 12455, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('ac3318', 'COMS', '4995', 'Intro. to Networks and Crowds', 'Sp22', 12455);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Intro. to Data Visualization', 'Sp22', 17830, 'Thu', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('cds2205', 'COMS', '4995', 'Intro. to Data Visualization', 'Sp22', 17830);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Natural and Artificial Neural Networks', 'Sp22', 13667, 'Tue', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('cp3007', 'COMS', '4995', 'Natural and Artificial Neural Networks', 'Sp22', 13667);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Deep Learning', 'Sp22', 17848, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('id2305', 'COMS', '4995', 'Deep Learning', 'Sp22', 17848);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Empirical Methods of Data Science', 'Sp22', 17850, 'MoWe', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('mfl41', 'COMS', '4995', 'Empirical Methods of Data Science', 'Sp22', 17850);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Technical Interview Preparation in C++', 'Sp22', 17851, 'TuTh', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('yl5012', 'COMS', '4995', 'Technical Interview Preparation in C++', 'Sp22', 17851);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Applied Machine Learning', 'Sp22', 16970, 'Mon', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('vp2472', 'COMS', '4995', 'Applied Machine Learning', 'Sp22', 16970);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6111', 'Advanced Database Systems', 'Sp22', 12456, 'Fri', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('lg233', 'COMS', '6111', 'Advanced Database Systems', 'Sp22', 12456);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6178', 'Human-Computer Interaction', 'Sp22', 12458, 'Wed', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('bas2137', 'COMS', '6178', 'Human-Computer Interaction', 'Sp22', 12458);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '6180', 'Modeling and Performance Evaluation', 'Sp22', 12459, 'Fri', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('vm2020', 'CSEE', '6180', 'Modeling and Performance Evaluation', 'Sp22', 12459);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6424', 'Hardware Security', 'Sp22', 12460, 'Tue', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('ss3418', 'COMS', '6424', 'Hardware Security', 'Sp22', 12460);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '6868', 'Embedded Scalable Platforms', 'Sp22', 12461, 'Wed', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('lc2257', 'CSEE', '6868', 'Embedded Scalable Platforms', 'Sp22', 12461);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Advanced Spoken Language Processing', 'Sp22', 12462, 'Mon', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('jbh2019', 'COMS', '6998', 'Advanced Spoken Language Processing', 'Sp22', 12462);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'AI for Software Engineering', 'Sp22', 12463, 'Fri', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('br2517', 'COMS', '6998', 'AI for Software Engineering', 'Sp22', 12463);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Fundamentals of Speech Recognition', 'Sp22', 12464, 'Thu', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('hb87', 'COMS', '6998', 'Fundamentals of Speech Recognition', 'Sp22', 12464);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Communication Complexity Applications', 'Sp22', 12465, 'Wed', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('tp2684', 'COMS', '6998', 'Communication Complexity Applications', 'Sp22', 12465);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Self Supervised Learning', 'Sp22', 12466, 'Wed', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('rz2548', 'COMS', '6998', 'Self Supervised Learning', 'Sp22', 12466);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Frontiers of Quantum Complexity and Cryptography', 'Sp22', 12467, 'Thu', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('hsy2116', 'COMS', '6998', 'Frontiers of Quantum Complexity and Cryptography', 'Sp22', 12467);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Advanced Topics in Deep Learning', 'Sp22', 12468, 'Wed', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('pb2019', 'COMS', '6998', 'Advanced Topics in Deep Learning', 'Sp22', 12468);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Cloud Computing and Big Data', 'Sp22', 12469, 'Thu', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('ss3876', 'COMS', '6998', 'Cloud Computing and Big Data', 'Sp22', 12469);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Practical Deep Learning System Performance', 'Sp22', 13681, 'Mon', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('pd2637', 'COMS', '6998', 'Practical Deep Learning System Performance', 'Sp22', 13681);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Machine Learning and Climate', 'Sp22', 15408, 'Tue', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('ak3709', 'COMS', '6998', 'Machine Learning and Climate', 'Sp22', 15408);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Bandits Reinforcement Learning', 'Sp22', 17849, 'Mon', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('ah3955', 'COMS', '6998', 'Bandits Reinforcement Learning', 'Sp22', 17849);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Quantum Computing: Theory and Practice', 'Sp22', 20501, 'Fri', '12:10', '14:00');
+INSERT INTO INSTRUCTS VALUES ('lh2792', 'COMS', '6998', 'Quantum Computing: Theory and Practice', 'Sp22', 20501);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6321', 'Advanced Digital Electronics Design', 'Sp22', 13570, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('ms4415', 'EECS', '6321', 'Advanced Digital Electronics Design', 'Sp22', 13570);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6691', 'Topics in Data-Driven Analysis and Computation: Advanced Deep Learning', 'Sp22', 13574, 'Wed', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('zk2172', 'EECS', '6691', 'Topics in Data-Driven Analysis and Computation: Advanced Deep Learning', 'Sp22', 13574);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6692', 'Topics in Data-Driven Analysis and Computation: Deep Learning on the Edge', 'Sp22', 13576, 'Wed', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('zk2172', 'EECS', '6692', 'Topics in Data-Driven Analysis and Computation: Deep Learning on the Edge', 'Sp22', 13576);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6699', 'Topics in Data-Driven Analysis and Computation: Mathematics of Deep Learning', 'Sp22', 15593, 'Wed', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'EECS', '6699', 'Topics in Data-Driven Analysis and Computation: Mathematics of Deep Learning', 'Sp22', 15593);
+
+
+/* Fall 2021 */
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1001', 'Intro. to Information Science', 'Fa21', 12390, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('ac1076', 'COMS', '1001', 'Intro. to Information Science', 'Fa21', 12390);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1002', 'Computing in Context', 'Fa21', 12391, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('ac1076', 'COMS', '1002', 'Computing in Context', 'Fa21', 12391);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Fa21', 12392, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '1004', 'Intro. to CS in Java', 'Fa21', 12392);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Fa21', 20199, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '1004', 'Intro. to CS in Java', 'Fa21', 20199);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('ENGI', '1006', 'Intro. to Computing in Python', 'Fa21', 12393, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'ENGI', '1006', 'Intro. to Computing in Python', 'Fa21', 12393);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3107', 'Clean Object-Oriented Design', 'Fa21', 12480, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('jrk3', 'COMS', '3107', 'Clean Object-Oriented Design', 'Fa21', 12480);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3134', 'Data Structures in Java', 'Fa21', 12481, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'COMS', '3134', 'Data Structures in Java', 'Fa21', 12481);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3136', 'Essential Data Structures', 'Fa21', 14947, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('tkp2108', 'COMS', '3136', 'Essential Data Structures', 'Fa21', 14947);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3157', 'Advanced Programming', 'Fa21', 12482, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('jwl3', 'COMS', '3157', 'Advanced Programming', 'Fa21', 12482);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', 'Fa21', 12483, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('yl4536', 'COMS', '3203', 'Discrete Mathematics', 'Fa21', 12483);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', 'Fa21', 12484, 'TuTh', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('am4134', 'COMS', '3203', 'Discrete Mathematics', 'Fa21', 12484);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', 'Fa21', 20412, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('dsr100', 'COMS', '3203', 'Discrete Mathematics', 'Fa21', 20412);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3251', 'Computational Linear Algebra', 'Fa21', 12485, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '3251', 'Computational Linear Algebra', 'Fa21', 12485);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Fa21', 13344, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('xc2198', 'COMS', '3261', 'Computer Science Theory', 'Fa21', 13344);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Fa21', 13345, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('xc2198', 'COMS', '3261', 'Computer Science Theory', 'Fa21', 13345);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3410', 'Computers and Society', 'Fa21', 14957, 'Wed', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('smb2132', 'COMS', '3410', 'Computers and Society', 'Fa21', 14957);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa21', 12486, 'TuTh', '10:0', '11:25');
+INSERT INTO INSTRUCTS VALUES ('mak2192', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa21', 12486);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa21', 12487, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('mak2192', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa21', 12487);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Fa21', 12406, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('lg233', 'COMS', '4111', 'Intro. to Databases', 'Fa21', 12406);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Fa21', 12423, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('dff9', 'COMS', '4111', 'Intro. to Databases', 'Fa21', 12423);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Fa21', 1252, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('ab2264', 'COMS', '4111', 'Intro. to Databases', 'Fa21', 1252);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4115', 'Programming Languages and Translators', 'Fa21', 12547, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('br2517', 'COMS', '4115', 'Programming Languages and Translators', 'Fa21', 12547);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4115', 'Programming Languages and Translators', 'Fa21', 20531, 'MoWe', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('se2007', 'COMS', '4115', 'Programming Languages and Translators', 'Fa21', 20531);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4118', 'Operating Systems I', 'Fa21', 12539, 'Wed', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('jwl3', 'COMS', '4118', 'Operating Systems I', 'Fa21', 12539);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4119', 'Computer Networks', 'Fa21', 15019, 'MoWe', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('vm2020', 'CSEE', '4119', 'Computer Networks', 'Fa21', 15019);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4156', 'Advanced Software Engineering', 'Fa21', 12531, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('gek1', 'COMS', '4156', 'Advanced Software Engineering', 'Fa21', 12531);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4167', 'Computer Animation', 'Fa21', 13531, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('cz2280', 'COMS', '4167', 'Computer Animation', 'Fa21', 13531);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4170', 'User Interface Design', 'Fa21', 12528, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('bas2137', 'COMS', '4170', 'User Interface Design', 'Fa21', 12528);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4181', 'Security I', 'Fa21', 12523, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('sj2754', 'COMS', '4181', 'Security I', 'Fa21', 12523);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4186', 'Malware Analysis and Reverse Engineering', 'Fa21', 13799, 'Thu', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('mss73', 'COMS', '4186', 'Malware Analysis and Reverse Engineering', 'Fa21', 13799);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', 'Fa21', 13346, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('my2144', 'CSOR', '4231', 'Analysis of Algorithms I', 'Fa21', 13346);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', 'Fa21', 13394, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('aa3185', 'CSOR', '4231', 'Analysis of Algorithms I', 'Fa21', 13394);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4246', 'Algorithms for Data Science', 'Fa21', 13927, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('ed2624', 'CSOR', '4246', 'Algorithms for Data Science', 'Fa21', 13927);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4246', 'Algorithms for Data Science', 'Fa21', 13928, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('ed2624', 'CSOR', '4246', 'Algorithms for Data Science', 'Fa21', 13928);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4252', 'Intro. to Computational Learning Theory', 'Fa21', 13518, 'MoWe', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('ras2105', 'COMS', '4252', 'Intro. to Computational Learning Theory', 'Fa21', 13518);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4419', 'Internet Technology, Economics, and Policy', 'Fa21', 12512, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('hgs10', 'COMS', '4419', 'Internet Technology, Economics, and Policy', 'Fa21', 12512);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4444', 'Programming and Problem Solving', 'Fa21', 12504, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('kar4', 'COMS', '4444', 'Programming and Problem Solving', 'Fa21', 12504);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4460', 'Principles of Innovation and Entrepreneurship', 'Fa21', 14948, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('wr2250', 'COMS', '4460', 'Principles of Innovation and Entrepreneurship', 'Fa21', 14948);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', 'Fa21', 12503, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('as2933', 'COMS', '4701', 'Artificial Intelligence', 'Fa21', 12503);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', 'Fa21', 13267, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('as2933', 'COMS', '4701', 'Artificial Intelligence', 'Fa21', 13267);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', 'Fa21', 12502, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('krm8', 'COMS', '4705', 'Natural Language Processing', 'Fa21', 12502);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', 'Fa21', 15018, 'Fri', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('yb2235', 'COMS', '4705', 'Natural Language Processing', 'Fa21', 15018);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4731', 'Computer Vision I: First Principles', 'Fa21', 12749, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('skn3', 'COMS', '4731', 'Computer Vision I: First Principles', 'Fa21', 12749);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4733', 'Computational Aspects of Robotics', 'Fa21', 12501, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '4733', 'Computational Aspects of Robotics', 'Fa21', 12501);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4733', 'Computational Aspects of Robotics', 'Fa21', 20413, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '4733', 'Computational Aspects of Robotics', 'Fa21', 20413);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4771', 'Machine Learning', 'Fa21', 12498, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4771', 'Machine Learning', 'Fa21', 12498);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4771', 'Machine Learning', 'Fa21', 122499, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('djh2164', 'COMS', '4771', 'Machine Learning', 'Fa21', 122499);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4774', 'Unsupervised Learning', 'Fa21', 12500, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4774', 'Unsupervised Learning', 'Fa21', 12500);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4775', 'Causal Inference', 'Fa21', 14070, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('eb3304', 'COMS', '4775', 'Causal Inference', 'Fa21', 14070);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4824', 'Computer Architecture', 'Fa21', 12488, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('ss3418', 'CSEE', '4824', 'Computer Architecture', 'Fa21', 12488);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4868', 'System-on-Chip Platforms', 'Fa21', 12489, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('lc2257', 'CSEE', '4868', 'System-on-Chip Platforms', 'Fa21', 12489);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Hacking 4 Defense', 'Fa21', 12495, 'Tue', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '4995', 'Hacking 4 Defense', 'Fa21', 12495);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Parallel Functional Programming', 'Fa21', 12496, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('se2007', 'COMS', '4995', 'Parallel Functional Programming', 'Fa21', 12496);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Engineering SaaS', 'Fa21', 12497, 'TuTh', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('jy2324', 'COMS', '4995', 'Engineering SaaS', 'Fa21', 12497);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Intro. to Networks and Crowds', 'Fa21', 13363, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('ac3318', 'COMS', '4995', 'Intro. to Networks and Crowds', 'Fa21', 13363);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Logic and Computability', 'Fa21', 14028, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('tp2684', 'COMS', '4995', 'Logic and Computability', 'Fa21', 14028);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Deep Learning for Computer Vision', 'Fa21', 13800, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('pb2019', 'COMS', '4995', 'Deep Learning for Computer Vision', 'Fa21', 13800);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Neural Networks and Deep Learning', 'Fa21', 18040, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('rz2548', 'COMS', '4995', 'Neural Networks and Deep Learning', 'Fa21', 18040);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Elements for Data Science', 'Fa21', 13929, 'Mon', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('brg2130', 'COMS', '4995', 'Elements for Data Science', 'Fa21', 13929);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Applied Machine Learning', 'Fa21', 18116, 'Wed', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('vp2472', 'COMS', '4995', 'Applied Machine Learning', 'Fa21', 18116);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6156', 'Cloud Computing', 'Fa21', 13390, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('dff9', 'COMS', '6156', 'Cloud Computing', 'Fa21', 13390);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '6863', 'Formal Verification of Hardware and Software Systems', 'Fa21', 14030, 'Wed', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('mt148', 'CSEE', '6863', 'Formal Verification of Hardware and Software Systems', 'Fa21', 14030);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Representation Learning', 'Fa21', 12490, 'Fri', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('cv2428', 'COMS', '6998', 'Representation Learning', 'Fa21', 12490);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Advanced Web Design Studio', 'Fa21', 12491, 'Wed', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('lc3251', 'COMS', '6998', 'Advanced Web Design Studio', 'Fa21', 12491);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Formal Verification of Software Systems', 'Fa21', 12492, 'Mon', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('rg3123', 'COMS', '6998', 'Formal Verification of Software Systems', 'Fa21', 12492);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Virtual and Augmented Reality', 'Fa21', 12494, 'Wed', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('skf1', 'COMS', '6998', 'Virtual and Augmented Reality', 'Fa21', 12494);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Topics in Robotic Learning', 'Fa21', 12951, 'Fri', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('ss5941', 'COMS', '6998', 'Topics in Robotic Learning', 'Fa21', 12951);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Foundations of Blockchains', 'Fa21', 13268, 'TuTh', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('tar2147', 'COMS', '6998', 'Foundations of Blockchains', 'Fa21', 13268);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Security Robustness in Machine Learning Systems', 'Fa21', 13269, 'Tue', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('jy2324', 'COMS', '6998', 'Security Robustness in Machine Learning Systems', 'Fa21', 13269);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Computation and the Brain', 'Fa21', 13525, 'Wed', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('cp3007', 'COMS', '6998', 'Computation and the Brain', 'Fa21', 13525);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Systems for Human Data Interaction', 'Fa21', 13802, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('ew2493', 'COMS', '6998', 'Systems for Human Data Interaction', 'Fa21', 13802);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Fundamentals of Speech Recognition', 'Fa21', 14029, 'Thu', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('hb87', 'COMS', '6998', 'Fundamentals of Speech Recognition', 'Fa21', 14029);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Practical Deep Learning System Performance', 'Fa21', 14942, 'Mon', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('pd2637', 'COMS', '6998', 'Practical Deep Learning System Performance', 'Fa21', 14942);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Cloud Computing and Big Data', 'Fa21', 14949, 'Tue', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('ss3876', 'COMS', '6998', 'Cloud Computing and Big Data', 'Fa21', 14949);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Empirical Methods of Data Science', 'Fa21', 14950, 'Fri', '12:10', '14:00');
+INSERT INTO INSTRUCTS VALUES ('mfl41', 'COMS', '6998', 'Empirical Methods of Data Science', 'Fa21', 14950);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Algebraic Techniques in TCS', 'Fa21', 18172, 'Tue', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('ja3570', 'COMS', '6998', 'Algebraic Techniques in TCS', 'Fa21', 18172);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Machine Learning with Probabilistic Programming', 'Fa21', 20217, 'Tue', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('ak3709', 'COMS', '6998', 'Machine Learning with Probabilistic Programming', 'Fa21', 20217);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '4321', 'Digital VLSI Circuits', 'Fa21', 12054, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('kls30', 'EECS', '4321', 'Digital VLSI Circuits', 'Fa21', 12054);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '4764', 'Heterogeneous Computing for Signal and Data Processing', 'Fa21', 12055, 'Thu', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('zk2172', 'EECS', '4764', 'Heterogeneous Computing for Signal and Data Processing', 'Fa21', 12055);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '4764', 'Internet of Things: Intelligent and Connected Systems', 'Fa21', 12056, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('xj2179', 'EECS', '4764', 'Internet of Things: Intelligent and Connected Systems', 'Fa21', 12056);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4823', 'Advanced Logic Design', 'Fa21', 12057, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('ms4415', 'CSEE', '4823', 'Advanced Logic Design', 'Fa21', 12057);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6690', 'Topics in Data-Driven Analysis and Computation: Statistical Learning for Biological and Information Systems', 'Fa21', 12059, 'Tue', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'EECS', '6690', 'Topics in Data-Driven Analysis and Computation: Statistical Learning for Biological and Information Systems', 'Fa21', 12059);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6890', 'Topics in Information Processing: Advanced Computer Networks', 'Fa21', 18366, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('ebk2141', 'EECS', '6890', 'Topics in Information Processing: Advanced Computer Networks', 'Fa21', 18366);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6893', 'Topics in Information Processing: Big Data Analytics', 'Fa21', 12060, 'Fri', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('cl300', 'EECS', '6893', 'Topics in Information Processing: Big Data Analytics', 'Fa21', 12060);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6896', 'Topics in Information Processing: Quantum Computing and Communication', 'Fa21', 12061, 'Wed', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('aa2354', 'EECS', '6896', 'Topics in Information Processing: Quantum Computing and Communication', 'Fa21', 12061);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6897', 'Topics in Information Processing: Distributed Storage Systems for Big Data', 'Fa21', 12062, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('ac4665', 'EECS', '6897', 'Topics in Information Processing: Distributed Storage Systems for Big Data', 'Fa21', 12062);
+
+
+/* Summer 2021 */
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Su21A', 11354, 'MoWe', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '1004', 'Intro. to CS in Java', 'Su21A', 11354);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('ENGI', '1006', 'Intro. to Computing in Python', 'Su21A', 11374, 'TuTh', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('tkp2108', 'ENGI', '1006', 'Intro. to Computing in Python', 'Su21A', 11374);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3134', 'Data Structures in Java', 'Su21B', 11376, 'MoWe', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '3134', 'Data Structures in Java', 'Su21B', 11376);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', 'Su21A', 11356, 'TuTh', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('rlh2005', 'COMS', '3203', 'Discrete Mathematics', 'Su21A', 11356);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3251', 'Computational Linear Algebra', 'Su21B', 11378, 'TuTh', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '3251', 'Computational Linear Algebra', 'Su21B', 11378);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Su21B', 11381, 'MoWe', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('twr2111', 'COMS', '3261', 'Computer Science Theory', 'Su21B', 11381);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Su21A', 11369, 'MoWe', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('se2007', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Su21A', 11369);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', 'Su21A', 11371, 'TuTh', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('xc2198', 'CSOR', '4231', 'Analysis of Algorithms I', 'Su21A', 11371);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4246', 'Algorithms for Data Science', 'Su21A', 11373, 'TuTh', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('ed2624', 'CSOR', '4246', 'Algorithms for Data Science', 'Su21A', 11373);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4261', 'Intro. to Cryptography', 'Su21A', 11360, 'MoWe', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('pp2732', 'COMS', '4261', 'Intro. to Cryptography', 'Su21A', 11360);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', 'Su21A', 11361, 'TuTh', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '4701', 'Artificial Intelligence', 'Su21A', 11361);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', 'Su21A', 11363, 'MoWe', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'COMS', '4705', 'Natural Language Processing', 'Su21A', 11363);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4732', 'Computer Vision II: Learning', 'Su21A', 11494, 'TuTh', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('cv2428', 'COMS', '4732', 'Computer Vision II: Learning', 'Su21A', 11494);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4771', 'Machine Learning', 'Su21A', 11365, 'TuTh', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4771', 'Machine Learning', 'Su21A', 11365);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'C++ for C Programmers', 'Su21A', 11367, 'TuTh', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('jwl3', 'COMS', '4995', 'C++ for C Programmers', 'Su21A', 11367);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Deep Learning', 'Su21B', 11379, 'MoWe', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('id2305', 'COMS', '4995', 'Deep Learning', 'Su21B', 11379);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6892', 'Topics in Information Processing: Reinforcement Learning in Information Systems', 'Su21A', 10793, 'MoWe', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'EECS', '6892', 'Topics in Information Processing: Reinforcement Learning in Information Systems', 'Su21A', 10793);
+
+
+
+/* Spring 2021 */
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Sp21', 11922, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('ac1076', 'COMS', '1004', 'Intro. to CS in Java', 'Sp21', 11922);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Sp21', 11923, 'TuTh', '20:10', '21:25');
+INSERT INTO INSTRUCTS VALUES ('ac1076', 'COMS', '1004', 'Intro. to CS in Java', 'Sp21', 11923);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('ENGI', '1006', 'Intro. to Computing in Python', 'Sp21', 11951, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'ENGI', '1006', 'Intro. to Computing in Python', 'Sp21', 11951);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3134', 'Data Structures in Java', 'Sp21', 11924, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '3134', 'Data Structures in Java', 'Sp21', 11924);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3137', 'Honors Data Structures and Algorithms', 'Sp21', 15971, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '3137', 'Honors Data Structures and Algorithms', 'Sp21', 15971);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3157', 'Advanced Programming', 'Sp21', 11925, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('jwl3', 'COMS', '3157', 'Advanced Programming', 'Sp21', 11925);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3157', 'Advanced Programming', 'Sp21', 14850, 'Fri', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('jwl3', 'COMS', '3157', 'Advanced Programming', 'Sp21', 14850);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', 'Sp21', 13030, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('as2933', 'COMS', '3203', 'Discrete Mathematics', 'Sp21', 13030);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3251', 'Computational Linear Algebra', 'Sp21', 13032, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '3251', 'Computational Linear Algebra', 'Sp21', 13032);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Sp21', 12483, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('xc2198', 'COMS', '3261', 'Computer Science Theory', 'Sp21', 12483);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Sp21', 16180, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('dsr100', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Sp21', 16180);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Sp21', 17382, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('dsr100', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Sp21', 17382);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Sp21', 11926, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('kar4', 'COMS', '4111', 'Intro. to Databases', 'Sp21', 11926);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Sp21', 11927, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('dff9', 'COMS', '4111', 'Intro. to Databases', 'Sp21', 11927);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Sp21', 13636, 'Thu', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('ab2264', 'COMS', '4111', 'Intro. to Databases', 'Sp21', 13636);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4115', 'Programming Languages and Translators', 'Sp21', 13902, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('se2007', 'COMS', '4115', 'Programming Languages and Translators', 'Sp21', 13902);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4118', 'Operating Systems I', 'Sp21', 11928, 'MoWe', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('jn234', 'COMS', '4118', 'Operating Systems I', 'Sp21', 11928);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4119', 'Computer Networks', 'Sp21', 11947, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('hgs10', 'CSEE', '4119', 'Computer Networks', 'Sp21', 11947);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4156', 'Advanced Software Engineering', 'Sp21', 11929, 'TuTh', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('jy2324', 'COMS', '4156', 'Advanced Software Engineering', 'Sp21', 11929);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4160', 'Computer Graphics', 'Sp21', 15972, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('cz2280', 'COMS', '4160', 'Computer Graphics', 'Sp21', 15972);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4170', 'User Interface Design', 'Sp21', 17520, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('cl2754', 'COMS', '4170', 'User Interface Design', 'Sp21', 17520);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4172', '3D UI and Augmented Reality', 'Sp21', 11930, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('skf1', 'COMS', '4172', '3D UI and Augmented Reality', 'Sp21', 11930);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4182', 'Security II', 'Sp21', 11931, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('sj2754', 'COMS', '4182', 'Security II', 'Sp21', 11931);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', 'Sp21', 11950, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('ed2624', 'CSOR', '4231', 'Analysis of Algorithms I', 'Sp21', 11950);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', 'Sp21', 12566, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('cp3007', 'CSOR', '4231', 'Analysis of Algorithms I', 'Sp21', 12566);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4252', 'Intro. to Computational Learning Theory', 'Sp21', 11932, 'MoWe', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('ras2105', 'COMS', '4252', 'Intro. to Computational Learning Theory', 'Sp21', 11932);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4281', 'Intro. to Quantum Computing', 'Sp21', 13318, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('hsy2116', 'COMS', '4281', 'Intro. to Quantum Computing', 'Sp21', 13318);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', 'Sp21', 13031, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('as2933', 'COMS', '4701', 'Artificial Intelligence', 'Sp21', 13031);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', 'Sp21', 11933, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('krm8', 'COMS', '4705', 'Natural Language Processing', 'Sp21', 11933);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4721', 'Machine Learning for Data Science', 'Sp21', 18010, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('jwp2128', 'COMS', '4721', 'Machine Learning for Data Science', 'Sp21', 18010);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4731', 'Computer Vision I: First Principles', 'Sp21', 11953, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('skn3', 'COMS', '4731', 'Computer Vision I: First Principles', 'Sp21', 11953);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4733', 'Computational Aspects of Robotics', 'Sp21', 16699, 'Fri', '14:10', '16:40');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '4733', 'Computational Aspects of Robotics', 'Sp21', 16699);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4762', 'Machine Learning for Functional Genomics', 'Sp21', 12573, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('dak2173', 'COMS', '4762', 'Machine Learning for Functional Genomics', 'Sp21', 12573);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4771', 'Machine Learning', 'Sp21', 11934, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4771', 'Machine Learning', 'Sp21', 11934);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4771', 'Machine Learning', 'Sp21', 11935, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4771', 'Machine Learning', 'Sp21', 11935);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4774', 'Unsupervised Learning', 'Sp21', 11936, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('djh2164', 'COMS', '4774', 'Unsupervised Learning', 'Sp21', 11936);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Semantic Representations for Natural Language Processing', 'Sp21', 13033, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'COMS', '4995', 'Semantic Representations for Natural Language Processing', 'Sp21', 13033);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Intro. to Agile Project Management', 'Sp21', 17129, 'Thu', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '4995', 'Intro. to Agile Project Management', 'Sp21', 17129);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Intro. to Networks and Crowds', 'Sp21', 14430, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('ac3318', 'COMS', '4995', 'Intro. to Networks and Crowds', 'Sp21', 14430);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Geometric Data Analysis', 'Sp21', 14178, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('ab4808', 'COMS', '4995', 'Geometric Data Analysis', 'Sp21', 14178);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Multilingual Technologies and Language Diversity', 'Sp21', 11937, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('sm761', 'COMS', '4995', 'Multilingual Technologies and Language Diversity', 'Sp21', 11937);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Design Using C++', 'Sp21', 11938, 'Fri', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('bs2286', 'COMS', '4995', 'Design Using C++', 'Sp21', 11938);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Causal Inference II', 'Sp21', 12252, 'Mon', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('eb3304', 'COMS', '4995', 'Causal Inference II', 'Sp21', 12252);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Advanced Algorithms', 'Sp21', 13315, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('aa3185', 'COMS', '4995', 'Advanced Algorithms', 'Sp21', 13315);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Intro. to Data Visualization', 'Sp21', 17101, 'Tue', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '4995', 'Intro. to Data Visualization', 'Sp21', 17101);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Applied Deep Learning', 'Sp21', 13315, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('jbg2109', 'COMS', '4995', 'Applied Deep Learning', 'Sp21', 13315);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Causal Inference for Data Science', 'Sp21', 16382, 'Tue', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('ak4063', 'COMS', '4995', 'Causal Inference for Data Science', 'Sp21', 16382);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6111', 'Advanced Database Systems', 'Sp21', 13845, 'Tue', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('lg233', 'COMS', '6111', 'Advanced Database Systems', 'Sp21', 13845);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '6180', 'Modeling and Performance Evaluation', 'Sp21', 12485, 'Fri', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('vm2020', 'CSEE', '6180', 'Modeling and Performance Evaluation', 'Sp21', 12485);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6184', 'Anonymity and Privacy', 'Sp21', 11940, 'Tue', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('smb2132', 'COMS', '6184', 'Anonymity and Privacy', 'Sp21', 11940);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6185', 'Intrusion Detection Systems', 'Sp21', 12548, 'Tue', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('sjs11', 'COMS', '6185', 'Intrusion Detection Systems', 'Sp21', 12548);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6424', 'Hardware Security', 'Sp21', 11951, 'Wed', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('ss3418', 'COMS', '6424', 'Hardware Security', 'Sp21', 11951);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6735', 'Visual Databases', 'Sp21', 12563, 'Thu', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('jrk3', 'COMS', '6735', 'Visual Databases', 'Sp21', 12563);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '6868', 'Embedded Scalable Platforms', 'Sp21', 11949, 'Wed', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('lc2257', 'CSEE', '6868', 'Embedded Scalable Platforms', 'Sp21', 11949);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Virtualization Technologies for Cloud Computing', 'Sp21', 11942, 'Mon', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('jn234', 'COMS', '6998', 'Virtualization Technologies for Cloud Computing', 'Sp21', 11942);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Software Engineering for AI Systems', 'Sp21', 11943, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('br2517', 'COMS', '6998', 'Software Engineering for AI Systems', 'Sp21', 11943);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Security Robustness in Machine Learning Systems', 'Sp21', 11944, 'Tue', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('jy2324', 'COMS', '6998', 'Security Robustness in Machine Learning Systems', 'Sp21', 11944);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Topics in Robotic Learning', 'Sp21', 11945, 'Fri', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('ss5941', 'COMS', '6998', 'Topics in Robotic Learning', 'Sp21', 11945);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Human-Computer Interaction', 'Sp21', 11946, 'Wed', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('bas2137', 'COMS', '6998', 'Human-Computer Interaction', 'Sp21', 11946);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Dialog Systems (Conversational AI)', 'Sp21', 13320, 'Tue', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('zy2461', 'COMS', '6998', 'Dialog Systems (Conversational AI)', 'Sp21', 13320);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Advanced Topics in Deep Learning', 'Sp21', 16860, 'Wed', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('pb2019', 'COMS', '6998', 'Advanced Topics in Deep Learning', 'Sp21', 16860);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Fundamentals of Speech Recognition', 'Sp21', 16862, 'Thu', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('hb87', 'COMS', '6998', 'Fundamentals of Speech Recognition', 'Sp21', 16862);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Empirical Methods of Data Science', 'Sp21', 17102, 'Wed', '12:10', '14:00');
+INSERT INTO INSTRUCTS VALUES ('mfl41', 'COMS', '6998', 'Empirical Methods of Data Science', 'Sp21', 17102);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Cloud Computing and Big Data', 'Sp21', 17103, 'Tue', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('ss3876', 'COMS', '6998', 'Cloud Computing and Big Data', 'Sp21', 17103);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Practical Deep Learning System Performance', 'Sp21', 19339, 'Mon', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('pd2637', 'COMS', '6998', 'Practical Deep Learning System Performance', 'Sp21', 19339);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '4764', 'Internet of Things: Intelligent and Connected Systems', 'Sp21', 13832, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('xj2179', 'EECS', '4764', 'Internet of Things: Intelligent and Connected Systems', 'Sp21', 13832);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6321', 'Advanced Digital Electronics Design', 'Sp21', 13809, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('ms4415', 'EECS', '6321', 'Advanced Digital Electronics Design', 'Sp21', 13809);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6691', 'Topics in Data-Driven Analysis and Computation: Advanced Deep Learning', 'Sp21', 13810, 'Wed', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('zk2172', 'EECS', '6691', 'Topics in Data-Driven Analysis and Computation: Advanced Deep Learning', 'Sp21', 13810);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6699', 'Topics in Data-Driven Analysis and Computation: Mathematics of Deep Learning', 'Sp21', 13810, 'Tue', '15:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'EECS', '6699', 'Topics in Data-Driven Analysis and Computation: Mathematics of Deep Learning', 'Sp21', 13810);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6895', 'Topics in Information Processing: Advanced Big Data Analytics', 'Sp21', 13817, 'Fri', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('cl300', 'EECS', '6895', 'Topics in Information Processing: Advanced Big Data Analytics', 'Sp21', 13817);
+
+
+/* Fall 2020 */
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1002', 'Computing in Context', 'Fa20', 11682, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('ac1076', 'COMS', '1002', 'Computing in Context', 'Fa20', 11682);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Fa20', 11692, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('ac1076', 'COMS', '1004', 'Intro. to CS in Java', 'Fa20', 11692);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('ENGI', '1006', 'Intro. to Computing in Python', 'Fa20', 10086, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'ENGI', '1006', 'Intro. to Computing in Python', 'Fa20', 10086);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3107', 'Clean Object-Oriented Design', 'Fa20', 15932, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('jrk3', 'COMS', '3107', 'Clean Object-Oriented Design', 'Fa20', 15932);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3134', 'Data Structures in Java', 'Fa20', 10066, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '3134', 'Data Structures in Java', 'Fa20', 10066);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3157', 'Advanced Programming', 'Fa20', 10067, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('jwl3', 'COMS', '3157', 'Advanced Programming', 'Fa20', 10067);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', 'Fa20', 11672, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('as2933', 'COMS', '3203', 'Discrete Mathematics', 'Fa20', 11672);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', 'Fa20', 11673, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('as2933', 'COMS', '3203', 'Discrete Mathematics', 'Fa20', 11673);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Fa20', 11666, 'TuTh', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('tm2118', 'COMS', '3261', 'Computer Science Theory', 'Fa20', 11666);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Fa20', 11667, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('tm2118', 'COMS', '3261', 'Computer Science Theory', 'Fa20', 11667);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3410', 'Computers and Society', 'Fa20', 11022, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '3410', 'Computers and Society', 'Fa20', 11022);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa20', 10806, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('mak2192', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa20', 10806);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa20', 10807, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('mak2192', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa20', 10807);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Fa20', 10069, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('lg233', 'COMS', '4111', 'Intro. to Databases', 'Fa20', 10069);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Fa20', 10873, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('dff9', 'COMS', '4111', 'Intro. to Databases', 'Fa20', 10873);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Fa20', 10874, 'TuTh', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('ab2264', 'COMS', '4111', 'Intro. to Databases', 'Fa20', 10874);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4113', 'Distributed Systems Fundamentals', 'Fa20', 11671, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('rg2758', 'COMS', '4113', 'Distributed Systems Fundamentals', 'Fa20', 11671);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4115', 'Programming Languages and Translators', 'Fa20', 10070, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('br2517', 'COMS', '4115', 'Programming Languages and Translators', 'Fa20', 10070);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4118', 'Operating Systems I', 'Fa20', 10071, 'Wed', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('jwl3', 'COMS', '4118', 'Operating Systems I', 'Fa20', 10071);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4156', 'Advanced Software Engineering', 'Fa20', 10072, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('gek1', 'COMS', '4156', 'Advanced Software Engineering', 'Fa20', 10072);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4167', 'Computer Animation', 'Fa20', 11388, 'TuTh', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('cz2280', 'COMS', '4167', 'Computer Animation', 'Fa20', 11388);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4170', 'User Interface Design', 'Fa20', 10073, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('bas2137', 'COMS', '4170', 'User Interface Design', 'Fa20', 10073);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4181', 'Security I', 'Fa20', 10074, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('smb2132', 'COMS', '4181', 'Security I', 'Fa20', 10074);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4186', 'Malware Analysis and Reverse Engineering', 'Fa20', 22036, 'Thu', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('mss73', 'COMS', '4186', 'Malware Analysis and Reverse Engineering', 'Fa20', 22036);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', 'Fa20', 11668, 'TuTh', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('my2144', 'CSOR', '4231', 'Analysis of Algorithms I', 'Fa20', 11668);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4236', 'Intro. to Computational Complexity', 'Fa20', 11562, 'Fri', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('xc2198', 'COMS', '4236', 'Intro. to Computational Complexity', 'Fa20', 11562);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4246', 'Algorithms for Data Science', 'Fa20', 10808, 'TuTh', '10:10', '12:55');
+INSERT INTO INSTRUCTS VALUES ('ed2624', 'CSOR', '4246', 'Algorithms for Data Science', 'Fa20', 10808);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4419', 'Internet Technology, Economics, and Policy', 'Fa20', 10075, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('hgs10', 'COMS', '4419', 'Internet Technology, Economics, and Policy', 'Fa20', 10075);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4444', 'Programming and Problem Solving', 'Fa20', 10315, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('kar4', 'COMS', '4444', 'Programming and Problem Solving', 'Fa20', 10315);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', 'Fa20', 10076, 'MoWe', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '4701', 'Artificial Intelligence', 'Fa20', 10076);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', 'Fa20', 21411, 'TuTh', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '4701', 'Artificial Intelligence', 'Fa20', 21411);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', 'Fa20', 14312, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'COMS', '4705', 'Natural Language Processing', 'Fa20', 14312);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', 'Fa20', 22057, 'Mon', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('yb2235', 'COMS', '4705', 'Natural Language Processing', 'Fa20', 22057);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4733', 'Computational Aspects of Robotics', 'Fa20', 10077, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('ss5941', 'COMS', '4733', 'Computational Aspects of Robotics', 'Fa20', 10077);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4761', 'Computational Genomics', 'Fa20', 21883, 'MoWe', '18:40', '19:55');
+INSERT INTO INSTRUCTS VALUES ('ip2169', 'COMS', '4761', 'Computational Genomics', 'Fa20', 21883);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4771', 'Machine Learning', 'Fa20', 10078, 'TuTh', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4771', 'Machine Learning', 'Fa20', 10078);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4771', 'Machine Learning', 'Fa20', 10079, 'TuTh', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('djh2164', 'COMS', '4771', 'Machine Learning', 'Fa20', 10079);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4774', 'Unsupervised Learning', 'Fa20', 21884, 'TuTh', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4774', 'Unsupervised Learning', 'Fa20', 21884);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4775', 'Causal Inference', 'Fa20', 21899, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('eb3304', 'COMS', '4775', 'Causal Inference', 'Fa20', 21899);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4824', 'Computer Architecture', 'Fa20', 10811, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('ss3418', 'CSEE', '4824', 'Computer Architecture', 'Fa20', 10811);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4868', 'System-on-Chip Platforms', 'Fa20', 11670, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('lc2257', 'CSEE', '4868', 'System-on-Chip Platforms', 'Fa20', 11670);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Hacking 4 Defense', 'Fa20', 10081, 'Tue', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '4995', 'Hacking 4 Defense', 'Fa20', 10081);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Parallel Functional Programming', 'Fa20', 10082, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('se2007', 'COMS', '4995', 'Parallel Functional Programming', 'Fa20', 10082);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Deep Learning for Computer Vision', 'Fa20', 10850, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('pb2019', 'COMS', '4995', 'Deep Learning for Computer Vision', 'Fa20', 10850);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Intro. to DevOps', 'Fa20', 14067, 'Thu', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '4995', 'Intro. to DevOps', 'Fa20', 14067);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Elements for Data Science', 'Fa20', 21412, 'Mon', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('brg2130', 'COMS', '4995', 'Elements for Data Science', 'Fa20', 21412);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Applied Deep Learning', 'Fa20', 21413, 'Thu', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('jbg2109', 'COMS', '4995', 'Applied Deep Learning', 'Fa20', 21413);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Open Source Development', 'Fa20', 22251, 'TuTh', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('tkp2108', 'COMS', '4995', 'Open Source Development', 'Fa20', 22251);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6113', 'Topics in Database Systems', 'Fa20', 10884, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('ew2493', 'COMS', '6113', 'Topics in Database Systems', 'Fa20', 10884);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6156', 'Cloud Computing', 'Fa20', 11991, 'Fri', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('dff9', 'COMS', '6156', 'Cloud Computing', 'Fa20', 11991);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '6863', 'Formal Verification of Hardware and Software Systems', 'Fa20', 15292, 'Mon', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('mt148', 'CSEE', '6863', 'Formal Verification of Hardware and Software Systems', 'Fa20', 15292);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Foundations of Blockchains', 'Fa20', 10083, 'Wed', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('tar2147', 'COMS', '6998', 'Foundations of Blockchains', 'Fa20', 10083);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Formal Verification of Software Systems', 'Fa20', 10084, 'Wed', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('rg3123', 'COMS', '6998', 'Formal Verification of Software Systems', 'Fa20', 10084);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Representation Learning', 'Fa20', 10085, 'Fri', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('cv2428', 'COMS', '6998', 'Representation Learning', 'Fa20', 10085);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Information Theory in CS', 'Fa20', 10854, 'Wed', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('ow2161', 'COMS', '6998', 'Information Theory in CS', 'Fa20', 10854);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Synthetic Control', 'Fa20', 10858, 'Fri', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('vm2020', 'COMS', '6998', 'Synthetic Control', 'Fa20', 10858);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Advanced Web Design Studio', 'Fa20', 11665, 'Fri', '11:00', '12:50');
+INSERT INTO INSTRUCTS VALUES ('lc3251', 'COMS', '6998', 'Advanced Web Design Studio', 'Fa20', 11665);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Computation and the Brain', 'Fa20', 11695, 'Wed', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('cp3007', 'COMS', '6998', 'Computation and the Brain', 'Fa20', 11695);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Cloud Computing and Big Data', 'Fa20', 15470, 'Tue', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('ss3876', 'COMS', '6998', 'Cloud Computing and Big Data', 'Fa20', 15470);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Practical Deep Learning System Performance', 'Fa20', 15275, 'Thu', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('pd2637', 'COMS', '6998', 'Practical Deep Learning System Performance', 'Fa20', 15275);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Fundamentals of Speech Recognition', 'Fa20', 15276, 'Thu', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('hb87', 'COMS', '6998', 'Fundamentals of Speech Recognition', 'Fa20', 15276);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Analysis of Networks and Crowds', 'Fa20', 15474, 'Fri', '12:10', '14:00');
+INSERT INTO INSTRUCTS VALUES ('ac3318', 'COMS', '6998', 'Analysis of Networks and Crowds', 'Fa20', 15474);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Cybersecurity: Technology, Policy, and Law', 'Fa20', 21610, 'Tue', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('sjs11', 'COMS', '6998', 'Cybersecurity: Technology, Policy, and Law', 'Fa20', 21610);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Machine Learning with Probabilistic Programming', 'Fa20', 22061, 'Wed', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('ak3709', 'COMS', '6998', 'Machine Learning with Probabilistic Programming', 'Fa20', 22061);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '4321', 'Digital VLSI Circuits', 'Fa20', 10605, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('kls30', 'EECS', '4321', 'Digital VLSI Circuits', 'Fa20', 10605);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '4750', 'Heterogeneous Computing for Signal and Data Processing', 'Fa20', 10625, 'Thu', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('zk2172', 'EECS', '4750', 'Heterogeneous Computing for Signal and Data Processing', 'Fa20', 10625);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '4764', 'Internet of Things: Intelligent and Connected Systems', 'Fa20', 10656, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('xj2179', 'EECS', '4764', 'Internet of Things: Intelligent and Connected Systems', 'Fa20', 10656);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4823', 'Advanced Logic Design', 'Fa20', 10727, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('ms4415', 'CSEE', '4823', 'Advanced Logic Design', 'Fa20', 10727);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6690', 'Topics in Data-Driven Analysis and Computation: Statistical Learning for Biological and  Information Systems', 'Fa20', 10732, 'Tue', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'EECS', '6690', 'Topics in Data-Driven Analysis and Computation: Statistical Learning for Biological and  Information Systems', 'Fa20', 10732);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6720', 'Bayesian Models for Machine Learning', 'Fa20', 10733, 'Wed', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('jwp2128', 'EECS', '6720', 'Bayesian Models for Machine Learning', 'Fa20', 10733);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6890', 'Topics in Information Processing: Advanced Computer Networks', 'Fa20', 13940, 'Wed', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('ebk2141', 'EECS', '6890', 'Topics in Information Processing: Advanced Computer Networks', 'Fa20', 13940);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6893', 'Topics in Information Processing: Big Data Analytics', 'Fa20', 21504, 'TuTh', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('cl300', 'EECS', '6893', 'Topics in Information Processing: Big Data Analytics', 'Fa20', 21504);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6897', 'Topics in Information Processing: Distributed Storage Systems for Big Data', 'Fa20', 10736, 'Fri', '10:00', '12:00');
+INSERT INTO INSTRUCTS VALUES ('ac4665', 'EECS', '6897', 'Topics in Information Processing: Distributed Storage Systems for Big Data', 'Fa20', 10736);
+
+/* Summer 2020 */
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Su20A', 10666, 'TuTh', '13:00', '16:10');
+INSERT INTO INSTRUCTS VALUES ('ac1076', 'COMS', '1004', 'Intro. to CS in Java', 'Su20A', 10666);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Su20B', 10683, 'MoWe', '17:30', '20:40');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '1004', 'Intro. to CS in Java', 'Su20B', 10683);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('ENGI', '1006', 'Intro. to Computing in Python', 'Su20A', 10684, 'TuTh', '17:30', '20:40');
+INSERT INTO INSTRUCTS VALUES ('tkp2108', 'ENGI', '1006', 'Intro. to Computing in Python', 'Su20A', 10684);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3134', 'Data Structures in Java', 'Su20A', 10685, 'MoWe', '17:30', '20:40');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '3134', 'Data Structures in Java', 'Su20A', 10685);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3134', 'Data Structures in Java', 'Su20B', 10686, 'MoWe', '17:30', '20:40');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'COMS', '3134', 'Data Structures in Java', 'Su20B', 10686);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', 'Su20A', 10687, 'TuTh', '17:30', '20:40');
+INSERT INTO INSTRUCTS VALUES ('rlh2005', 'COMS', '3203', 'Discrete Mathematics', 'Su20A', 10687);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3251', 'Computational Linear Algebra', 'Su20B', 11721, 'TuTh', '13:00', '16:10');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '3251', 'Computational Linear Algebra', 'Su20B', 11721);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Su20A', 10688, 'TuTh', '14:40', '17:50');
+INSERT INTO INSTRUCTS VALUES ('xc2198', 'COMS', '3261', 'Computer Science Theory', 'Su20A', 10688);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Su20A', 10689, 'TuTh', '17:30', '20:40');
+INSERT INTO INSTRUCTS VALUES ('rlh2005', 'COMS', '3261', 'Computer Science Theory', 'Su20A', 10689);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Su20A', 10690, 'MoWe', '13:00', '16:10');
+INSERT INTO INSTRUCTS VALUES ('se2007', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Su20A', 10690);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4119', 'Computer Networks', 'Su20A', 11988, 'TuTh', '17:30', '20:40');
+INSERT INTO INSTRUCTS VALUES ('gz2136', 'CSEE', '4119', 'Computer Networks', 'Su20A', 11988);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', 'Su20A', 10691, 'TuTh', '13:00', '16:10');
+INSERT INTO INSTRUCTS VALUES ('ed2624', 'CSOR', '4231', 'Analysis of Algorithms I', 'Su20A', 10691);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', 'Su20A', 10692, 'MoWe', '13:00', '16:10');
+INSERT INTO INSTRUCTS VALUES ('as2933', 'COMS', '4701', 'Artificial Intelligence', 'Su20A', 10692);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', 'Su20A', 10693, 'MoWe', '17:30', '20:40');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'COMS', '4705', 'Natural Language Processing', 'Su20A', 10693);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4771', 'Machine Learning', 'Su20B', 10695, 'TuTh', '13:00', '16:10');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4771', 'Machine Learning', 'Su20B', 10695);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4774', 'Unsupervised Learning', 'Su20A', 10700, 'TuTh', '13:00', '16:10');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4774', 'Unsupervised Learning', 'Su20A', 10700);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Machine Learning with Applications in Finance', 'Su20B', 10696, 'MoWe', '17:30', '20:40');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '4995', 'Machine Learning with Applications in Finance', 'Su20B', 10696);
+
+/* Spring 2020 */
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Sp20', 12611, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('ac1076', 'COMS', '1004', 'Intro. to CS in Java', 'Sp20', 12611);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Sp20', 12612, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('ac1076', 'COMS', '1004', 'Intro. to CS in Java', 'Sp20', 12612);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('ENGI', '1006', 'Intro. to Computing in Python', 'Sp20', 19671, 'TuTh', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'ENGI', '1006', 'Intro. to Computing in Python', 'Sp20', 19671);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3134', 'Data Structures in Java', 'Sp20', 12615, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '3134', 'Data Structures in Java', 'Sp20', 12615);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3137', 'Honors Data Structures and Algorithms', 'Sp20', 12617, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '3137', 'Honors Data Structures and Algorithms', 'Sp20', 12617);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3157', 'Advanced Programming', 'Sp20', 12618, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('jwl3', 'COMS', '3157', 'Advanced Programming', 'Sp20', 12618);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', 'Sp20', 12619, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('as2933', 'COMS', '3203', 'Discrete Mathematics', 'Sp20', 12619);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3251', 'Computational Linear Algebra', 'Sp20', 12620, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '3251', 'Computational Linear Algebra', 'Sp20', 12620);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3251', 'Computational Linear Algebra', 'Sp20', 12621, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '3251', 'Computational Linear Algebra', 'Sp20', 12621);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Sp20', 12622, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('my2144', 'COMS', '3261', 'Computer Science Theory', 'Sp20', 12622);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Sp20', 12910, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('my2144', 'COMS', '3261', 'Computer Science Theory', 'Sp20', 12910);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Sp20', 14445, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('ss3418', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Sp20', 14445);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Sp20', 12624, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('kar4', 'COMS', '4111', 'Intro. to Databases', 'Sp20', 12624);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Sp20', 13586, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('dff9', 'COMS', '4111', 'Intro. to Databases', 'Sp20', 13586);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Sp20', 19905, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('ab2264', 'COMS', '4111', 'Intro. to Databases', 'Sp20', 19905);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4115', 'Programming Languages and Translators', 'Sp20', 12625, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('rg3123', 'COMS', '4115', 'Programming Languages and Translators', 'Sp20', 12625);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4118', 'Operating Systems I', 'Sp20', 12626, 'Wed', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('jwl3', 'COMS', '4118', 'Operating Systems I', 'Sp20', 12626);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4119', 'Computer Networks', 'Sp20', 16515, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'CSEE', '4119', 'Computer Networks', 'Sp20', 16515);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4121', 'Computer Systems for Data Science', 'Sp20', 20153, 'Mon', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('ac4665', 'COMS', '4121', 'Computer Systems for Data Science', 'Sp20', 20153);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4156', 'Advanced Software Engineering', 'Sp20', 16219, 'Tue', '12:10', '14:00');
+INSERT INTO INSTRUCTS VALUES ('jy2324', 'COMS', '4156', 'Advanced Software Engineering', 'Sp20', 16219);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4160', 'Computer Graphics', 'Sp20', 12627, 'TuTh', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('cz2280', 'COMS', '4160', 'Computer Graphics', 'Sp20', 12627);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4170', 'User Interface Design', 'Sp20', 12628, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('lc3251', 'COMS', '4170', 'User Interface Design', 'Sp20', 12628);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4172', '3D UI and Augmented Reality', 'Sp20', 12629, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('skf1', 'COMS', '4172', '3D UI and Augmented Reality', 'Sp20', 12629);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4182', 'Security II', 'Sp20', 12630, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('smb2132', 'COMS', '4182', 'Security II', 'Sp20', 12630);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', 'Sp20', 13142, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('ed2624', 'CSOR', '4231', 'Analysis of Algorithms I', 'Sp20', 13142);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', 'Sp20', 12631, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('as2933', 'COMS', '4701', 'Artificial Intelligence', 'Sp20', 12631);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', 'Sp20', 12632, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('yb2235', 'COMS', '4705', 'Natural Language Processing', 'Sp20', 12632);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', 'Sp20', 13588, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('mc3354', 'COMS', '4705', 'Natural Language Processing', 'Sp20', 13588);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4721', 'Machine Learning for Data Science', 'Sp20', 12633, 'TuTh', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '4721', 'Machine Learning for Data Science', 'Sp20', 12633);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4735', 'Visual Interfaces to Computers', 'Sp20', 12634, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('jrk3', 'COMS', '4735', 'Visual Interfaces to Computers', 'Sp20', 12634);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4761', 'Computational Genomics', 'Sp20', 12635, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('ip2169', 'COMS', '4761', 'Computational Genomics', 'Sp20', 12635);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4771', 'Machine Learning', 'Sp20', 12636, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4771', 'Machine Learning', 'Sp20', 12636);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4772', 'Advanced Machine Learning', 'Sp20', 12637, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('nv2274', 'COMS', '4772', 'Advanced Machine Learning', 'Sp20', 12637);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4840', 'Embedded Systems', 'Sp20', 12638, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('se2007', 'CSEE', '4840', 'Embedded Systems', 'Sp20', 12638);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Machine Learning Theory', 'Sp20', 12639, 'MoWe', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('djh2164', 'COMS', '4995', 'Machine Learning Theory', 'Sp20', 12639);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Advanced Algorithms', 'Sp20', 12640, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('aa3185', 'COMS', '4995', 'Advanced Algorithms', 'Sp20', 12640);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Design Using C++', 'Sp20', 12641, 'Fri', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('bs2286', 'COMS', '4995', 'Design Using C++', 'Sp20', 12641);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Intro. to Agile Project Management', 'Sp20', 12642, 'Thu', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '4995', 'Intro. to Agile Project Management', 'Sp20', 12642);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Deep Learning', 'Sp20', 12643, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('id2305', 'COMS', '4995', 'Deep Learning', 'Sp20', 12643);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Incentives in CS', 'Sp20', 12644, 'Wed', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('tar2147', 'COMS', '4995', 'Incentives in CS', 'Sp20', 12644);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Multilingual Technologies and Language Diversity', 'Sp20', 13659, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('sm761', 'COMS', '4995', 'Multilingual Technologies and Language Diversity', 'Sp20', 13659);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Causal Inference', 'Sp20', 14158, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('eb3304', 'COMS', '4995', 'Causal Inference', 'Sp20', 14158);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Intro. to Data Visualization', 'Sp20', 16806, 'Tue', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '4995', 'Intro. to Data Visualization', 'Sp20', 16806);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Applied Machine Learning', 'Sp20', 20022, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '4995', 'Applied Machine Learning', 'Sp20', 20022);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Applied Deep Learning', 'Sp20', 20023, 'Thu', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('jbg2109', 'COMS', '4995', 'Applied Deep Learning', 'Sp20', 20023);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Causal Inference for Data Science', 'Sp20', 20029, 'Wed', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('ak4063', 'COMS', '4995', 'Causal Inference for Data Science', 'Sp20', 20029);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6111', 'Advanced Database Systems', 'Sp20', 12645, 'Tue', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('lg233', 'COMS', '6111', 'Advanced Database Systems', 'Sp20', 12645);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6118', 'Operating Systems II', 'Sp20', 13589, 'Tue', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('jn234', 'COMS', '6118', 'Operating Systems II', 'Sp20', 13589);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '6180', 'Modeling and Performance Evaluation', 'Sp20', 12647, 'Thu', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('vm2020', 'CSEE', '6180', 'Modeling and Performance Evaluation', 'Sp20', 12647);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6185', 'Intrusion Detection Systems', 'Sp20', 13590, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('sjs11', 'COMS', '6185', 'Intrusion Detection Systems', 'Sp20', 13590);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6261', 'Advanced Cryptography', 'Sp20', 12648, 'Tue', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('tm2118', 'COMS', '6261', 'Advanced Cryptography', 'Sp20', 12648);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '6868', 'Embedded Scalable Platforms', 'Sp20', 12649, 'Wed', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('lc2257', 'CSEE', '6868', 'Embedded Scalable Platforms', 'Sp20', 12649);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Practical Deep Learning System Performance', 'Sp20', 12650, 'Thu', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('pd2637', 'COMS', '6998', 'Practical Deep Learning System Performance', 'Sp20', 12650);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Quantum Computing: Theory and Practice', 'Sp20', 12651, 'Fri', '12:10', '14:00');
+INSERT INTO INSTRUCTS VALUES ('lh2792', 'COMS', '6998', 'Quantum Computing: Theory and Practice', 'Sp20', 12651);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Empirical Methods of Data Science', 'Sp20', 12652, 'Wed', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('mfl41', 'COMS', '6998', 'Empirical Methods of Data Science', 'Sp20', 12652);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Practical Privacy Technologies', 'Sp20', 13660, 'Fri', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('rg2758', 'COMS', '6998', 'Practical Privacy Technologies', 'Sp20', 13660);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Advanced Spoken Language Processing', 'Sp20', 13591, 'Tue', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('jbh2019', 'COMS', '6998', 'Advanced Spoken Language Processing', 'Sp20', 13591);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Cloud Computing and Big Data', 'Sp20', 13680, 'Tue', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('ss3876', 'COMS', '6998', 'Cloud Computing and Big Data', 'Sp20', 13680);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Continuous Logic Networks', 'Sp20', 13908, 'Mon', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('sj2754', 'COMS', '6998', 'Continuous Logic Networks', 'Sp20', 13908);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Fundamentals of Speech Recognition', 'Sp20', 13926, 'Thu', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('hb87', 'COMS', '6998', 'Fundamentals of Speech Recognition', 'Sp20', 13926);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Readings in Human Data Interaction', 'Sp20', 157990, 'Wed', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('ew2493', 'COMS', '6998', 'Readings in Human Data Interaction', 'Sp20', 157990);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Security Robustness in Machine Learning Systems', 'Sp20', 16221, 'Tue', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('jy2324', 'COMS', '6998', 'Security Robustness in Machine Learning Systems', 'Sp20', 16221);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Advanced Topics in Deep Learning', 'Sp20', 17315, 'Wed', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('pb2019', 'COMS', '6998', 'Advanced Topics in Deep Learning', 'Sp20', 17315);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6321', 'Advanced Digital Electronics Design', 'Sp20', 34665, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('ms4415', 'EECS', '6321', 'Advanced Digital Electronics Design', 'Sp20', 34665);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6765', 'Internet of Things: Systems and Physical Data Analytics', 'Sp20', 16556, 'Wed', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('zk2172', 'EECS', '6765', 'Internet of Things: Systems and Physical Data Analytics', 'Sp20', 16556);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6895', 'Topics in Information Processing: Advanced Big Data Analytics', 'Sp20', 16910, 'Fri', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('cl300', 'EECS', '6895', 'Topics in Information Processing: Advanced Big Data Analytics', 'Sp20', 16910);
+
+/* Fall 2019 */
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1001', 'Intro. to Information Science', 'Fa19', 35954, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('ac1076', 'COMS', '1001', 'Intro. to Information Science', 'Fa19', 35954);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1002', 'Computing in Context', 'Fa19', 35955, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('ac1076', 'COMS', '1002', 'Computing in Context', 'Fa19', 35955);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1004', 'Intro. to CS in Java', 'Fa19', 35930, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '1004', 'Intro. to CS in Java', 'Fa19', 35930);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('ENGI', '1006', 'Intro. to Computing in Python', 'Fa19', 35916, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'ENGI', '1006', 'Intro. to Computing in Python', 'Fa19', 35916);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '1007', 'Honors Intro. to CS', 'Fa19', 35951, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('jrk3', 'COMS', '1007', 'Honors Intro. to CS', 'Fa19', 35951);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3134', 'Data Structures in Java', 'Fa19', 35960, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('db2711', 'COMS', '3134', 'Data Structures in Java', 'Fa19', 35960);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3136', 'Essential Data Structures', 'Fa19', 35960, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('tkp2108', 'COMS', '3136', 'Essential Data Structures', 'Fa19', 35960);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3157', 'Advanced Programming', 'Fa19', 35958, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('jwl3', 'COMS', '3157', 'Advanced Programming', 'Fa19', 35958);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3157', 'Advanced Programming', 'Fa19', 17709, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('jwl3', 'COMS', '3157', 'Advanced Programming', 'Fa19', 17709);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', 'Fa19', 35940, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('as2933', 'COMS', '3203', 'Discrete Mathematics', 'Fa19', 35940);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3203', 'Discrete Mathematics', 'Fa19', 35941, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('as2933', 'COMS', '3203', 'Discrete Mathematics', 'Fa19', 35941);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Fa19', 35942, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('ow2161', 'COMS', '3261', 'Computer Science Theory', 'Fa19', 35942);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3261', 'Computer Science Theory', 'Fa19', 35943, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('ow2161', 'COMS', '3261', 'Computer Science Theory', 'Fa19', 35943);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '3410', 'Computers and Society', 'Fa19', 35915, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '3410', 'Computers and Society', 'Fa19', 35915);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa19', 35927, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('mak2192', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa19', 35927);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa19', 35928, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('mak2192', 'CSEE', '3827', 'Fundamentals of Computer Systems', 'Fa19', 35928);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Fa19', 35949, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('lg233', 'COMS', '4111', 'Intro. to Databases', 'Fa19', 35949);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Fa19', 35950, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('dff9', 'COMS', '4111', 'Intro. to Databases', 'Fa19', 35950);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4111', 'Intro. to Databases', 'Fa19', 35970, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('ab2264', 'COMS', '4111', 'Intro. to Databases', 'Fa19', 35970);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4113', 'Distributed Systems Fundamentals', 'Fa19', 35946, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('rg2758', 'COMS', '4113', 'Distributed Systems Fundamentals', 'Fa19', 35946);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4115', 'Programming Languages and Translators', 'Fa19', 35909, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('br2517', 'COMS', '4115', 'Programming Languages and Translators', 'Fa19', 35909);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4118', 'Operating Systems I', 'Fa19', 35918, 'MoWe', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('jn234', 'COMS', '4118', 'Operating Systems I', 'Fa19', 35918);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4119', 'Computer Networks', 'Fa19', 98822, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('ebk2141', 'CSEE', '4119', 'Computer Networks', 'Fa19', 98822);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4140', 'Networking Laboratory', 'Fa19', 98713, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('gz2136', 'CSEE', '4140', 'Networking Laboratory', 'Fa19', 98713);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4170', 'User Interface Design', 'Fa19', 35953, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('bas2137', 'COMS', '4170', 'User Interface Design', 'Fa19', 35953);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4181', 'Security I', 'Fa19', 35948, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('sj2754', 'COMS', '4181', 'Security I', 'Fa19', 35948);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4186', 'Malware Analysis and Reverse Engineering', 'Fa19', 35952, 'Thu', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('mss73', 'COMS', '4186', 'Malware Analysis and Reverse Engineering', 'Fa19', 35952);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', 'Fa19', 35933, 'TuTh', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('cs2035', 'CSOR', '4231', 'Analysis of Algorithms I', 'Fa19', 35933);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4231', 'Analysis of Algorithms I', 'Fa19', 35947, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('aa3185', 'CSOR', '4231', 'Analysis of Algorithms I', 'Fa19', 35947);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4236', 'Intro. to Computational Complexity', 'Fa19', 35963, 'Fri', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('xc2198', 'COMS', '4236', 'Intro. to Computational Complexity', 'Fa19', 35963);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4246', 'Algorithms for Data Science', 'Fa19', 13491, 'TuTh', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('ed2624', 'CSOR', '4246', 'Algorithms for Data Science', 'Fa19', 13491);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSOR', '4246', 'Algorithms for Data Science', 'Fa19', 13492, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('ed2624', 'CSOR', '4246', 'Algorithms for Data Science', 'Fa19', 13492);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4261', 'Intro. to Cryptography', 'Fa19', 35959, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('tm2118', 'COMS', '4261', 'Intro. to Cryptography', 'Fa19', 35959);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '4321', 'Digital VLSI Circuits', 'Fa19', 98657, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('kls30', 'EECS', '4321', 'Digital VLSI Circuits', 'Fa19', 98657);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4444', 'Programming and Problem Solving', 'Fa19', 35937, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('kar4', 'COMS', '4444', 'Programming and Problem Solving', 'Fa19', 35937);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4460', 'Principles of Innovation and Entrepreneurship', 'Fa19', 35914, 'Fri', '10:10', '12:40');
+INSERT INTO INSTRUCTS VALUES ('wr2250', 'COMS', '4460', 'Principles of Innovation and Entrepreneurship', 'Fa19', 35914);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', 'Fa19', 35921, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '4701', 'Artificial Intelligence', 'Fa19', 35921);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4701', 'Artificial Intelligence', 'Fa19', 35922, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('tbd2115', 'COMS', '4701', 'Artificial Intelligence', 'Fa19', 35922);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', 'Fa19', 35944, 'MoWe', '13:10', '14:25');
+INSERT INTO INSTRUCTS VALUES ('krm8', 'COMS', '4705', 'Natural Language Processing', 'Fa19', 35944);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4705', 'Natural Language Processing', 'Fa19', 13496, 'Fri', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('yb2235', 'COMS', '4705', 'Natural Language Processing', 'Fa19', 13496);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4731', 'Computer Vision I: First Principles', 'Fa19', 35920, 'TuTh', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('cv2428', 'COMS', '4731', 'Computer Vision I: First Principles', 'Fa19', 35920);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4733', 'Computational Aspects of Robotics', 'Fa19', 35926, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('pka1', 'COMS', '4733', 'Computational Aspects of Robotics', 'Fa19', 35926);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '4750', 'Heterogeneous Computing for Signal and Data Processing', 'Fa19', 98656, 'Thu', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('zk2172', 'EECS', '4750', 'Heterogeneous Computing for Signal and Data Processing', 'Fa19', 98656);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '4764', 'Internet of Things: Intelligent and Connected Systems', 'Fa19', 98820, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('xj2179', 'EECS', '4764', 'Internet of Things: Intelligent and Connected Systems', 'Fa19', 98820);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4771', 'Machine Learning', 'Fa19', 35934, 'MoWe', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('djh2164', 'COMS', '4771', 'Machine Learning', 'Fa19', 35934);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4823', 'Advanced Logic Design', 'Fa19', 98795, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('ms4415', 'CSEE', '4823', 'Advanced Logic Design', 'Fa19', 98795);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4824', 'Computer Architecture', 'Fa19', 35938, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('ss3418', 'CSEE', '4824', 'Computer Architecture', 'Fa19', 35938);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '4868', 'System-on-Chip Platforms', 'Fa19', 35910, 'TuTh', '11:40', '12:55');
+INSERT INTO INSTRUCTS VALUES ('lc2257', 'CSEE', '4868', 'System-on-Chip Platforms', 'Fa19', 35910);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Hacking 4 Defense', 'Fa19', 35925, 'Tue', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('psb15', 'COMS', '4995', 'Hacking 4 Defense', 'Fa19', 35925);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Randomized Algorithms', 'Fa19', 35935, 'MoWe', '10:10', '11:25');
+INSERT INTO INSTRUCTS VALUES ('tar2147', 'COMS', '4995', 'Randomized Algorithms', 'Fa19', 35935);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Parallel Functional Programming', 'Fa19', 35936, 'MoWe', '17:40', '18:55');
+INSERT INTO INSTRUCTS VALUES ('se2007', 'COMS', '4995', 'Parallel Functional Programming', 'Fa19', 35936);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Optimization for Machine Learning', 'Fa19', 35956, 'TuTh', '8:40', '9:55');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '4995', 'Optimization for Machine Learning', 'Fa19', 35956);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Machine Learning for Functional Genomics', 'Fa19', 35961, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('dak2173', 'COMS', '4995', 'Machine Learning for Functional Genomics', 'Fa19', 35961);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Deep Learning for Computer Vision', 'Fa19', 10586, 'TuTh', '14:40', '15:55');
+INSERT INTO INSTRUCTS VALUES ('pb2019', 'COMS', '4995', 'Deep Learning for Computer Vision', 'Fa19', 10586);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Intro. to Agile Project Management', 'Fa19', 13376, 'Thu', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '4995', 'Intro. to Agile Project Management', 'Fa19', 13376);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Intro. to DevOps', 'Fa19', 13377, 'Thu', '20:10', '22:00');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '4995', 'Intro. to DevOps', 'Fa19', 13377);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Elements for Data Science', 'Fa19', 14407, 'Mon', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('brg2130', 'COMS', '4995', 'Elements for Data Science', 'Fa19', 14407);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Applied Deep Learning', 'Fa19', 14408, 'Thu', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('jbg2109', 'COMS', '4995', 'Applied Deep Learning', 'Fa19', 14408);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Blockchains and Applications', 'Fa19', 14266, 'Tue', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('ab2264', 'COMS', '4995', 'Blockchains and Applications', 'Fa19', 14266);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '4995', 'Intro. to Data Visualization', 'Fa19', 14290, 'Tue', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '4995', 'Intro. to Data Visualization', 'Fa19', 14290);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6156', 'Cloud Computing', 'Fa19', 10677, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('dff9', 'COMS', '6156', 'Cloud Computing', 'Fa19', 10677);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6185', 'Intrusion Detection Systems', 'Fa19', 35919, 'Fri', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('sjs11', 'COMS', '6185', 'Intrusion Detection Systems', 'Fa19', 35919);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6690', 'Topics in Data-Driven Analysis and Computation: Statistical Learning for Biological and Information Systems', 'Fa19', 98817, 'Tue', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('prj2', 'EECS', '6690', 'Topics in Data-Driven Analysis and Computation: Statistical Learning for Biological and Information Systems', 'Fa19', 98817);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('CSEE', '6863', 'Formal Verification of Hardware and Software Systems', 'Fa19', 35968, 'Wed', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('mt148', 'CSEE', '6863', 'Formal Verification of Hardware and Software Systems', 'Fa19', 35968);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6893', 'Topics in Information Processing: Big Data Analytics', 'Fa19', 98790, 'Fri', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('cl300', 'EECS', '6893', 'Topics in Information Processing: Big Data Analytics', 'Fa19', 98790);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6896', 'Topics in Information Processing: Quantum Computing and Communication', 'Fa19', 41938, 'Wed', '13:30', '16:00');
+INSERT INTO INSTRUCTS VALUES ('aa2354', 'EECS', '6896', 'Topics in Information Processing: Quantum Computing and Communication', 'Fa19', 41938);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('EECS', '6897', 'Topics in Information Processing: Distributed Storage Systems for Big Data', 'Fa19', 14068, 'Tue', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('ac4665', 'EECS', '6897', 'Topics in Information Processing: Distributed Storage Systems for Big Data', 'Fa19', 14068);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Data Center Networking', 'Fa19', 35911, 'Fri', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('vm2020', 'COMS', '6998', 'Data Center Networking', 'Fa19', 35911);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Cybersecurity: Technology, Policy, and Law', 'Fa19', 35923, 'Tue', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('smb2132', 'COMS', '6998', 'Cybersecurity: Technology, Policy, and Law', 'Fa19', 35923);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Advanced Web Design Studio', 'Fa19', 35924, 'Fri', '14:10', '16:00');
+INSERT INTO INSTRUCTS VALUES ('lc3251', 'COMS', '6998', 'Advanced Web Design Studio', 'Fa19', 35924);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Computation and the Brain', 'Fa19', 35945, 'Wed', '16:10', '18:40');
+INSERT INTO INSTRUCTS VALUES ('cp3007', 'COMS', '6998', 'Computation and the Brain', 'Fa19', 35945);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Formal Verification of Software Systems', 'Fa19', 35962, 'Mon', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('rg3123', 'COMS', '6998', 'Formal Verification of Software Systems', 'Fa19', 35962);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Analysis of Networks and Crowds', 'Fa19', 35964, 'Thu', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('ac3318', 'COMS', '6998', 'Analysis of Networks and Crowds', 'Fa19', 35964);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Fundamentals of Speech Recognition', 'Fa19', 35967, 'Thu', '19:00', '21:30');
+INSERT INTO INSTRUCTS VALUES ('hb87', 'COMS', '6998', 'Fundamentals of Speech Recognition', 'Fa19', 35967);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Cloud Computing and Big Data', 'Fa19', 13101, 'Tue', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('ss3876', 'COMS', '6998', 'Cloud Computing and Big Data', 'Fa19', 13101);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Advanced Spoken Language Processing', 'Fa19', 13384, 'Thu', '13:10', '15:40');
+INSERT INTO INSTRUCTS VALUES ('n/a', 'COMS', '6998', 'Advanced Spoken Language Processing', 'Fa19', 13384);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Empirical Methods of Data Science', 'Fa19', 14277, 'Wed', '10:10', '12:00');
+INSERT INTO INSTRUCTS VALUES ('mfl41', 'COMS', '6998', 'Empirical Methods of Data Science', 'Fa19', 14277);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Topics in Robotic Learning', 'Fa19', 14289, 'MoWe', '16:10', '17:25');
+INSERT INTO INSTRUCTS VALUES ('ss5941', 'COMS', '6998', 'Topics in Robotic Learning', 'Fa19', 14289);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Practical Deep Learning System Performance', 'Fa19', 15099, 'Thu', '18:10', '20:00');
+INSERT INTO INSTRUCTS VALUES ('pd2637', 'COMS', '6998', 'Practical Deep Learning System Performance', 'Fa19', 15099);
+
+INSERT INTO SEMESTER_OFFERED VALUES ('COMS', '6998', 'Machine Learning with Probabilistic Programming', 'Fa19', 15453, 'Wed', '16:10', '18:00');
+INSERT INTO INSTRUCTS VALUES ('ak3709', 'COMS', '6998', 'Machine Learning with Probabilistic Programming', 'Fa19', 15453);

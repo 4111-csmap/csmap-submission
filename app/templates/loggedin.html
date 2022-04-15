@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="d-flex">
+  <div class="p2 col-3">
+    <div class="container-fluid sticky-top">
+      <div class="row">
+        <div class="col-m-12 justify-content-center">
+          <div class="card m-3 ml-0">
+            <div class="card-body">
+              <h5 class="card-title">My Profile</h5>
+              <p class="card-text">Name: {{ current_user.name }}</p>
+              <p class="card-text">UNI: {{ current_user.uni }}</p>
+              <p class="card-text">Degree Program: {{ current_user.degree_program }}</p>
+              {% if current_user.major_track != "N/A" %}
+              <p class="card-text">Major Track: {{ current_user.major_track }}</p>
+              {% endif %}
+              <p class="card-text">Interests:
+              {% for i in current_user.interests %}
+                {{ i }}{% if i != current_user.interests[-1] %},{% endif %}
+              {% endfor %}
+              </p>
+              <hr/>
+              <h5 class="card-title">Remaining Requirements</h5>
+              {% for req in current_user.remaining_required %}
+                <p class="card-text">- {{ req[0] }} {{ req[1] }} {{ req[2] }}</p>
+              {% endfor %}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="p2 col-9">
+    <div class="container-fluid">
+      {% block data %}{% endblock data %}
+    </div>
+  </div>
+</div>
+{% endblock content %}

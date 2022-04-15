@@ -1,0 +1,124 @@
+{% extends 'loggedin.html' %}
+
+{% block data %}
+<div class="row">
+  <div class="col-12">
+    <h1 class="">Search Courses</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-12">
+    <form action="" method="POST">
+      <div class="form-group">
+        <label for="keywords">Enter Keyphrase</label>
+        <input type="text" class="form-control" id="keywords" name="keywords" placeholder="Keyphrase...">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="professor">Professor</label>
+          <select id="professor" name="professor" class="form-control">
+            <option selected>Choose...</option>
+            {% for prof in professors %}
+              <option>{{ prof }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="semester">Semester</label>
+          <select id="semester" name="semester" class="form-control">
+            <option selected>Choose...</option>
+            {% for sem in semesters %}
+              <option>{{ sem }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="subfield">Subfield</label>
+          <select id="subfield" name="subfield" class="form-control">
+            <option selected>Choose...</option>
+            {% for s in subfields %}
+              <option>{{ s }}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-4">
+          <label for="days">Days</label>
+          <select id="days" name="days" class="form-control">
+            <option selected>Choose...</option>
+            {% for day in days %}
+              <option>{{ day }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="start_time">Earliest Start Time</label>
+          <select id="start_time" name="start_time" class="form-control">
+            <option selected>Choose...</option>
+            {% for t in start_times %}
+              <option>{{ t }}</option>
+            {% endfor %}
+          </select>
+        </div>
+        <div class="form-group col-md-4">
+          <label for="end_time">Latest End Time</label>
+          <select id="end_time" name="end_time" class="form-control">
+            <option selected>Choose...</option>
+            {% for t in end_times %}
+              <option>{{ t }}</option>
+            {% endfor %}
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <input class="btn btn-primary" type="submit" name="search" value="Search">
+          {% if current_user.major_track != "N/A" %}
+            <input class="btn btn-success" type="submit" name="surprise" value="Recommend Me!">
+          {% endif %}
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
+{% if output %}
+  {% for out in output %}
+    <div class="container-fluid bg-light my-3 mr-4 p-3">
+      <div class="row">
+        <div class="col-11">
+          <h3 class="">{{ out[0] }} {{ out[1] }} {{ out[2] }}</h3>
+          <p class="">Semester: {{ out[4] }}</p>
+          <p class="">Professor: {{ out[3] }}</p>
+          <p class="">Days of Week: {{ out[8] }}</p>
+          <p class="">Start Time: {{ out[6] }}</p>
+          <p class="">End Time: {{ out[7] }}</p>
+          <p class="">Call Number: {{ out[9] }}</p>
+          {% set c = (out[0], out[1], out[2]) %}
+          {% if c in reqs %}
+            <p class="">Uncompleted Prerequisites: {{ reqs[c] }}</p>
+          {% endif %}
+        </div>
+        <div class="col-1 text-center">
+          {% if out[5] %}
+            <button type="button" class="btn btn-secondary">Taken</button>
+          {% else %}
+            <form action="" method="POST">
+                <input class="btn btn-success" type="submit" name="add,{{ out[0] }},{{ out[1] }},{{ out[2] }},{{ out[3] }},{{ out[4] }},{{ out[9] }}" value="Add">
+            </form>
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  {% endfor %}
+{% else %}
+  <div class="container-fluid bg-light my-3 mr-4 p-3">
+    <div class="row">
+      <div class="col-12">
+        <h3 class="">No courses! Try another search query.</h3>
+      </div>
+    </div>
+  </div>
+{% endif %}
+
+{% endblock data %}
